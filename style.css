@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 * {
@@ -12,7 +12,7 @@ body {
 
 #wrapper {
     width: 100vw;
-    height: 100%;
+    height: 50%;
     margin: 0 auto;
     background: linear-gradient(140deg, #f9a16366, #e4615e57);
     display: flex;
@@ -53,4 +53,23 @@ body {
 
 /* stars */
 
-.star {}
+.sky {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(2, 2, 11, 1) 35%, rgba(13, 13, 71, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    position: relative;
+}
+
+.moon {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: white;
+    border-radius: 50%;
+
+    -webkit-box-shadow: -1px 0px 41px 10px rgba(219, 216, 219, 1);
+    -moz-box-shadow: -1px 0px 41px 10px rgba(219, 216, 219, 1);
+    box-shadow: -1px 0px 41px 10px rgba(219, 216, 219, 1);
+    left: 80px;
+    top: 50px;
+}
