@@ -10,7 +10,7 @@ body {
 
 }
 
-#chocolate {
+#wrapper {
     width: 100vw;
     height: 100%;
     margin: 0 auto;
@@ -20,6 +20,7 @@ body {
     align-items: center;
 }
 
+/* chocolate */
 #container {
     height: 138px;
     width: 500px;
@@ -49,3 +50,7 @@ body {
     color: rgba(0, 0, 0, 0.4);
 
 }
+
+/* stars */
+
+.star {}
