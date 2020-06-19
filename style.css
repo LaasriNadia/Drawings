@@ -60,16 +60,61 @@ body {
     position: relative;
 }
 
-.moon {
+.star {
     position: absolute;
-    width: 4px;
-    height: 4px;
+    width: 2px;
+    height: 2px;
     background: white;
     border-radius: 50%;
 
-    -webkit-box-shadow: -1px 0px 41px 10px rgba(219, 216, 219, 1);
-    -moz-box-shadow: -1px 0px 41px 10px rgba(219, 216, 219, 1);
-    box-shadow: -1px 0px 41px 10px rgba(219, 216, 219, 1);
-    left: 80px;
+    -webkit-box-shadow: 2px 0px 37px 16px rgba(238, 230, 231, 1);
+    -moz-box-shadow: 2px 0px 37px 16px rgba(238, 230, 231, 1);
+    box-shadow: 2px 0px 37px 16px rgba(238, 230, 231, 1);
+    right: 80px;
     top: 50px;
+}
+
+.moon {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.moon.one {
+    background: #dcdcdcc4;
+    right: 80px;
+    top: 20px;
+}
+
+.moon.two {
+    right: 99px;
+    top: 20px;
+    background: rgba(2, 2, 11, 1);
+    box-shadow: 10px 0 5px -2px #888;
+}
+
+.bar {
+    position: absolute;
+    height: .1px;
+    background: #46444b;
+
+}
+
+.bar.bar1 {
+    right: 150px;
+    top: 90px;
+    width: 10px;
+}
+
+.bar.bar2 {
+    right: 110px;
+    top: 60px;
+    width: 6px;
+}
+
+.bar.bar3 {
+    right: 120px;
+    top: 33px;
+    width: 11px;
 }
