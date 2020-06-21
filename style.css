@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 * {
@@ -12,7 +12,7 @@ body {
 
 #wrapper {
     width: 100vw;
-    height: 50%;
+    height: 300px;
     margin: 0 auto;
     background: linear-gradient(140deg, #f9a16366, #e4615e57);
     display: flex;
@@ -55,7 +55,7 @@ body {
 
 .sky {
     width: 100%;
-    height: 100%;
+    height: 300px;
     background: linear-gradient(180deg, rgba(2, 2, 11, 1) 35%, rgba(13, 13, 71, 1) 100%, rgba(0, 212, 255, 1) 100%);
     position: relative;
 }
@@ -117,4 +117,46 @@ body {
     right: 120px;
     top: 33px;
     width: 11px;
+}
+
+/* payphone */
+
+.payphone_wrap {
+    position: relative;
+
+}
+
+.payphone_cont {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.payphone {
+    width: 200px;
+    height: 300px;
+    background: #c52724;
+}
+
+.head1 {
+    width: 220px;
+    height: 100px;
+    background: #c52724;
+}
+
+.head2 {
+    width: 160px;
+    height: 50px;
+    background: #c52724;
+}
+
+.end {
+    width: 220px;
+    height: 30px;
+    background: #c52724;
 }
