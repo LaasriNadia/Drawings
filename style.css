@@ -122,41 +122,125 @@ body {
 /* payphone */
 
 .payphone_wrap {
-    position: relative;
-
+    width: 100vw;
+    height: 300px;
+    margin: 0 auto;
 }
 
 .payphone_cont {
-    position: absolute;
+
+    margin: 10px;
     top: 10px;
     left: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
-.payphone {
-    width: 200px;
-    height: 300px;
-    background: #c52724;
-}
+
 
 .head1 {
+    border-radius: 1000px 1000px 0px 0px;
     width: 220px;
-    height: 100px;
+    height: 60px;
     background: #c52724;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headOne {
+    border-radius: 1000px 1000px 0px 0px;
+    width: 200px;
+    height: 50px;
+    background: #991e23;
+    box-shadow: inset 0px 7px 0px #671416
 }
 
 .head2 {
     width: 160px;
     height: 50px;
     background: #c52724;
+    box-shadow: inset -1px 18px 0px #932023;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telephone {
+    background: cornsilk;
+    padding: 5px;
+    font-weight: bold;
+    box-shadow: inset 1px 7px 11px #6a1019
+}
+
+.payphone {
+    width: 200px;
+    height: 350px;
+    background: #c52724;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #751e1e;
+}
+
+.squares_top {
+    flex-direction: column;
+    background: #991e23;
+    width: 180px;
+    height: 330px;
+    box-shadow: inset -1px 11px 0px #6d1519;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.squares_cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #cc232a;
+    width: 132px;
+    grid-gap: 5px;
+    padding: 5px;
+    height: 250px;
+    box-shadow: inset 0px -6px 0px #6a1019;
+}
+
+.squares_bottom {
+    margin-top: 7px;
+    background: #cc232a;
+    width: 120px;
+    height: 30px;
+    box-shadow: inset 0px -6px 0px #6a1019;
+}
+
+.square {
+    background: #211f20;
+    width: 40px;
+    height: 40px;
+}
+
+.square.dark {
+    background: linear-gradient(0deg, rgba(47, 46, 47, 1) 0%, rgba(32, 32, 32, 1) 100%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.square.gradient {
+    background: linear-gradient(0deg, rgba(63, 61, 64, 1) 14%, rgba(32, 32, 32, 1) 100%, rgba(0, 212, 255, 1) 100%);
+
+
+}
+
+.square.light {
+    background: linear-gradient(0deg, rgba(127, 125, 128, 1) 0%, rgba(32, 32, 32, 1) 100%, rgba(0, 212, 255, 1) 100%);
+
 }
 
 .end {
     width: 220px;
+    border: 1px solid #751e1e;
     height: 30px;
     background: #c52724;
 }
