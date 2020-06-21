@@ -1,18 +1,45 @@
-html,
-body {
-    height: 100%;
-    overflow-y: hidden;
-}
 
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
-
 }
 
-#wrapper {
+/*  buttons     */
+.btns {
+    width: 50px;
+    height: 20px;
+    padding: 5px;
+    background: #02020b;
+    position: fixed;
+    top: 1.5rem;
+    left: -0.75rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: rotate(90deg);
+    z-index: 100;
+}
+.btn {
+    display: inline-block;
+    width: 20px;
+    height: 100%;
+    border-radius: 50%;
+}
+.btn.btn1 {
+    background: #793c11;
+}
+.btn.btn2 {
+    background: rgba(13, 13, 71, 1);
+}
+
+/*   chocolate      */
+#chocolate {
     width: 100vw;
-    height: 50%;
+    height: 100vh;
     margin: 0 auto;
     background: linear-gradient(140deg, #f9a16366, #e4615e57);
     display: flex;
@@ -51,11 +78,13 @@ body {
 
 }
 
-/* stars */
+/* sky */
 
-.sky {
-    width: 100%;
-    height: 100%;
+
+#sky {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
     background: linear-gradient(180deg, rgba(2, 2, 11, 1) 35%, rgba(13, 13, 71, 1) 100%, rgba(0, 212, 255, 1) 100%);
     position: relative;
 }
@@ -74,47 +103,49 @@ body {
     top: 50px;
 }
 
-.moon {
+/*  .star pseudos are moon  */
+.star::before,
+.star::after {
+    content: '';
     position: absolute;
-    width: 80px;
-    height: 80px;
+    top: -2.25rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
 }
-
-.moon.one {
+.star::before {
     background: #dcdcdcc4;
-    right: 80px;
-    top: 20px;
+    right: 1px;
 }
-
-.moon.two {
-    right: 99px;
-    top: 20px;
-    background: rgba(2, 2, 11, 1);
-    box-shadow: 10px 0 5px -2px #888;
+.star::after {
+    background: #02020b;
+    right: 0.75rem;
+    -webkit-box-shadow: 10px 0 5px -2px #888;
+            box-shadow: 10px 0 5px -2px #888;
 }
 
 .bar {
-    position: absolute;
-    height: .1px;
+    z-index: 1;
     background: #46444b;
-
-}
-
-.bar.bar1 {
-    right: 150px;
-    top: 90px;
     width: 10px;
+    height: 1px;
+    position: absolute;
+    right: 1.5rem;
+    top: 0.5rem;
 }
-
-.bar.bar2 {
-    right: 110px;
-    top: 60px;
-    width: 6px;
+.bar::before, 
+.bar::after {
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    background: inherit;
 }
-
-.bar.bar3 {
-    right: 120px;
-    top: 33px;
-    width: 11px;
+.bar::before {
+    top: -1.75rem;
+    right: 1rem;  
+}  
+.bar::after {
+    top: 1.75rem;
+    right: 2.25rem;
 }
