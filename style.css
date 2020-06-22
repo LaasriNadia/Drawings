@@ -123,7 +123,6 @@ body {
 
 .payphone_wrap {
     width: 100vw;
-    height: 300px;
     margin: 0 auto;
 }
 
@@ -243,4 +242,173 @@ body {
     border: 1px solid #751e1e;
     height: 30px;
     background: #c52724;
+}
+
+/* pizza */
+.pizza_menu {
+    margin-right: 20px;
+    width: 80px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    font-size: 4px;
+}
+
+.centered_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizza {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #fea500;
+    box-shadow: inset 0px 0px 11px #231a1b
+}
+
+.brown_circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #ae2b00;
+}
+
+.red_circle {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #fe0002;
+}
+
+.yellow_circle {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    background: #f7bf22;
+    position: relative;
+}
+
+
+.olive {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    background: black;
+    border-radius: 44%;
+}
+
+.pizza_circle {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: radial-gradient(circle, rgba(247, 170, 56, 1) 0%, rgba(231, 114, 81, 1) 14%, rgba(169, 32, 0, 1) 46%);
+    border-radius: 50%;
+    box-shadow: 1px 3px 12px #ffffff;
+
+}
+
+.m1 {
+    right: 78px;
+    top: 4px;
+}
+
+.m2 {
+    right: 120px;
+    top: 50px;
+}
+
+.m3 {
+    right: 40px;
+    top: 90px;
+}
+
+.m4 {
+    right: 85px;
+    top: 90px;
+}
+
+.m5 {
+    right: 70px;
+    top: 52px;
+}
+
+.m6 {
+    right: 30px;
+    top: 40px;
+}
+
+.m7 {
+    right: 80px;
+    top: 135px;
+}
+
+.ol_1 {
+    top: 129px;
+    right: 60px;
+
+}
+
+.olive::after {
+    background: #ffffff6b;
+    width: 6px;
+    top: 6px;
+    left: 2px;
+    height: 1px;
+    content: '';
+    position: absolute;
+}
+
+
+
+.ol_2 {
+    top: 15px;
+    right: 50px;
+}
+
+.ol_3 {
+    top: 90px;
+    right: 130px;
+}
+
+.ol_4 {
+    top: 25px;
+    right: 120px;
+}
+
+.ol_5 {
+    top: 40px;
+    right: 85px;
+}
+
+.ol_6 {
+    top: 70px;
+    right: 50px;
+}
+
+.ol_7 {
+    top: 90px;
+    right: 11px;
+}
+
+.ol_8 {
+    top: 119px;
+    right: 103px;
+}
+
+.ol_9 {
+    top: 77px;
+    right: 100px;
+}
+
+.ol_10 {
+    top: 44px;
+    right: 15px;
 }
