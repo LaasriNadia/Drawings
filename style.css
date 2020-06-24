@@ -509,3 +509,76 @@ body {
 .android_arm2 {
   left: -35px;
 }
+/* shirt */
+.shirt_cont {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shirt {
+  height: 420px;
+  width: 320px;
+  background: #fff;
+  position: relative;
+  border-radius: 108px 108px 0px 0px;
+  box-shadow: -19px 6px 12px 3px #c9c9c9;
+}
+.shirt_neck {
+  position: absolute;
+  height: 40px;
+  width: 90px;
+  z-index: 100;
+  background: #e2dfdf;
+  left: 33%;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 4px solid #353537;
+}
+.shirt_design {
+  z-index: 99;
+  border-radius: 108px 108px 0px 0px;
+  position: absolute;
+  height: 420px;
+  width: 320px;
+  background: pink;
+  display: grid;
+  grid-template-columns: repeat(11, 32px);
+  overflow: hidden;
+}
+.grid1 {
+  background: #f0f0f0;
+}
+.grid2 {
+  background: #711b24;
+}
+.grid3 {
+  background: #28282a;
+}
+.shirt_hand1,
+.shirt_hand2 {
+  position: absolute;
+  height: 92px;
+  width: 157px;
+  background: #f0f0f0;
+
+  top: 60px;
+}
+.shirt_hand1 {
+  left: 69%;
+  transform: rotate(44deg);
+  border-radius: 16px 0px 0px 0px;
+}
+.shirt_hand2 {
+  right: 69%;
+  transform: rotate(-44deg);
+  box-shadow: -20px -17px 12px 3px #c9c9c9;
+  border-radius: 0px 16px 0px 0px;
+}
