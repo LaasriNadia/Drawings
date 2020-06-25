@@ -56,12 +56,10 @@ body {
 .sky {
   width: 100%;
   height: 300px;
-  background: linear-gradient(
-    180deg,
-    rgba(2, 2, 11, 1) 35%,
-    rgba(13, 13, 71, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(2, 2, 11, 1) 35%,
+      rgba(13, 13, 71, 1) 100%,
+      rgba(0, 212, 255, 1) 100%);
   position: relative;
 }
 
@@ -222,30 +220,24 @@ body {
 }
 
 .square.dark {
-  background: linear-gradient(
-    0deg,
-    rgba(47, 46, 47, 1) 0%,
-    rgba(32, 32, 32, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(47, 46, 47, 1) 0%,
+      rgba(32, 32, 32, 1) 100%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 .square.gradient {
-  background: linear-gradient(
-    0deg,
-    rgba(63, 61, 64, 1) 14%,
-    rgba(32, 32, 32, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(63, 61, 64, 1) 14%,
+      rgba(32, 32, 32, 1) 100%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 .square.light {
-  background: linear-gradient(
-    0deg,
-    rgba(127, 125, 128, 1) 0%,
-    rgba(32, 32, 32, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(127, 125, 128, 1) 0%,
+      rgba(32, 32, 32, 1) 100%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 .end {
@@ -319,12 +311,10 @@ body {
   position: absolute;
   width: 22px;
   height: 22px;
-  background: radial-gradient(
-    circle,
-    rgba(247, 170, 56, 1) 0%,
-    rgba(231, 114, 81, 1) 14%,
-    rgba(169, 32, 0, 1) 46%
-  );
+  background: radial-gradient(circle,
+      rgba(247, 170, 56, 1) 0%,
+      rgba(231, 114, 81, 1) 14%,
+      rgba(169, 32, 0, 1) 46%);
   border-radius: 50%;
   box-shadow: 1px 3px 12px #ffffff;
 }
@@ -433,6 +423,7 @@ body {
   justify-content: center;
   margin-top: 100px;
 }
+
 .android_head {
   background: #36b39b;
   border-radius: 1000px 1000px 0px 0px;
@@ -440,6 +431,7 @@ body {
   height: 70px;
   position: relative;
 }
+
 .android_eye1,
 .android_eye2 {
   position: absolute;
@@ -449,12 +441,15 @@ body {
   border-radius: 50%;
   top: 25px;
 }
+
 .android_eye1 {
   right: 30px;
 }
+
 .android_eye2 {
   left: 26px;
 }
+
 .android_ant {
   position: absolute;
   background: #36b39b;
@@ -463,14 +458,17 @@ body {
   z-index: -1;
   border-radius: 10px;
 }
+
 .ant1 {
   right: -9px;
   transform: rotateZ(135deg);
 }
+
 .ant2 {
   left: -9px;
   transform: rotateZ(60deg);
 }
+
 .android_body {
   position: absolute;
   background: #36b39b;
@@ -479,6 +477,7 @@ body {
   top: 80px;
   border-radius: 0px 0px 15px 15px;
 }
+
 .android_feet1,
 .android_feet2 {
   position: absolute;
@@ -488,12 +487,15 @@ body {
   top: 180px;
   border-radius: 0px 0px 15px 15px;
 }
+
 .android_feet1 {
   right: 10px;
 }
+
 .android_feet2 {
   left: 10px;
 }
+
 .android_arm1,
 .android_arm2 {
   position: absolute;
@@ -503,12 +505,15 @@ body {
   top: 80px;
   border-radius: 15px;
 }
+
 .android_arm1 {
   right: -35px;
 }
+
 .android_arm2 {
   left: -35px;
 }
+
 /* shirt */
 .shirt_cont {
   height: 500px;
@@ -519,6 +524,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .shirt {
   height: 420px;
   width: 320px;
@@ -527,6 +533,7 @@ body {
   border-radius: 108px 108px 0px 0px;
   box-shadow: -19px 6px 12px 3px #c9c9c9;
 }
+
 .shirt_neck {
   position: absolute;
   height: 40px;
@@ -542,6 +549,7 @@ body {
   border-bottom-right-radius: 100px;
   border: 4px solid #353537;
 }
+
 .shirt_design {
   z-index: 99;
   border-radius: 108px 108px 0px 0px;
@@ -553,15 +561,19 @@ body {
   grid-template-columns: repeat(11, 32px);
   overflow: hidden;
 }
+
 .grid1 {
   background: #f0f0f0;
 }
+
 .grid2 {
   background: #711b24;
 }
+
 .grid3 {
   background: #28282a;
 }
+
 .shirt_hand1,
 .shirt_hand2 {
   position: absolute;
@@ -571,14 +583,151 @@ body {
 
   top: 60px;
 }
+
 .shirt_hand1 {
   left: 69%;
   transform: rotate(44deg);
   border-radius: 16px 0px 0px 0px;
 }
+
 .shirt_hand2 {
   right: 69%;
   transform: rotate(-44deg);
   box-shadow: -20px -17px 12px 3px #c9c9c9;
   border-radius: 0px 16px 0px 0px;
+}
+
+/* window */
+.window_cont {
+  background: #c7c7c7;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.window {
+  background: linear-gradient(180deg, rgb(88, 138, 197) 19%, rgb(87, 157, 193) 66%, rgb(9, 116, 134) 92%);
+
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border: 16px solid #e4e4e4;
+  display: flex;
+}
+
+.wind1 {
+  background: #e0e0e0;
+  width: 150px;
+  height: 300px;
+  box-shadow: inset 11px -5px 0px #464141;
+  clip-path: polygon(7% 10%, 48% 16%, 49% 80%, 6% 92%, 0 91%, 0% 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wind_squares_cont {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wind2 {
+  background: #e0e0e0;
+  width: 150px;
+  height: 300px;
+  clip-path: polygon(94% 12%, 52% 16%, 53% 81%, 94% 90%, 100% 88%, 100% 15%);
+  box-shadow: inset -10px -5px 0px #464141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wind2 .wind_squares_cont {
+  align-items: flex-end;
+}
+
+.wind_square {
+  width: 40px;
+  height: 90px;
+}
+
+.ml {
+  margin-left: 20px;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.incline-bottom {
+  clip-path: polygon(0 12%, 100% 0, 100% 78%, 0 100%);
+  background: linear-gradient(180deg, rgba(88, 152, 194, 1) 27%, rgba(84, 155, 191, 1) 53%, rgba(56, 141, 170, 1) 78%);
+  box-shadow: inset -2px -3px 0px #4641418a;
+
+}
+
+.incline-top {
+  clip-path: polygon(0 0, 100% 14%, 100% 85%, 0 95%);
+  background: linear-gradient(180deg, rgba(88, 138, 196, 1) 27%, rgba(88, 143, 196, 1) 53%, rgba(87, 146, 195, 1) 78%);
+  box-shadow: inset -3px -3px 0px #4641418a;
+
+}
+
+.incline-right-bottom {
+  clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 84%);
+  background: linear-gradient(180deg, rgba(88, 152, 194, 1) 27%, rgba(84, 155, 191, 1) 53%, rgba(56, 141, 170, 1) 78%);
+  box-shadow: inset 2px -3px 0px #4641418a;
+}
+
+.incline-right-top {
+  clip-path: polygon(1% 11%, 100% 0, 100% 100%, 0 88%);
+  background: linear-gradient(180deg, rgba(88, 138, 196, 1) 27%, rgba(88, 143, 196, 1) 53%, rgba(87, 146, 195, 1) 78%);
+  box-shadow: inset 2px 2px 0px #4641418a;
+
+}
+
+.key-item {
+  width: 5px;
+  height: 15px;
+  background: #818286;
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.key-left-top {
+
+  left: 20%;
+  top: 20%;
+
+}
+
+.key-left-bottom {
+  left: 20%;
+  bottom: 35%;
+}
+
+.key-right-top {
+  right: 20%;
+  top: 20%;
+}
+
+.key-right-bottom {
+  right: 20%;
+  bottom: 35%;
+
+}
+
+.key-circle {
+  background: white;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
 }
