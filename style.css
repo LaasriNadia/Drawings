@@ -731,3 +731,93 @@ body {
   height: 2px;
   border-radius: 50%;
 }
+
+/* bag */
+
+.bag_cont {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bag_top {
+  width: 145px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  background: #010101;
+  height: 200px;
+  border-radius: 100px 100px 0px 0px;
+  position: relative;
+}
+
+.bag-top-3 {
+  width: 104px;
+  background: #191348;
+  height: 10px;
+  margin: 0 auto;
+  top: 195px;
+  left: 21px;
+  position: absolute;
+  z-index: 99;
+}
+
+.bag-put {
+  width: 10px;
+  background: #d49b35;
+  height: 10px;
+  margin: 0 auto;
+  top: 6px;
+  left: 65px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 99
+}
+
+.bag-top-2 {
+  width: 105px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  background: #fff;
+  height: 200px;
+  border-radius: 100px 100px 0px 0px;
+  margin: 0 auto;
+  box-shadow: inset -1px -7px 20px 7px #7b7777;
+  margin-top: 10px;
+}
+
+.bag-bottom {
+  width: 300px;
+  background: #39317d;
+  height: 260px;
+  border-radius: 5px 5px 30px 30px;
+  box-shadow: inset -1px -3px 20px 0px #00000063;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid #ffffff47;
+}
+
+.bag-bottom-cont {
+  position: relative;
+}
+
+.css-is-awesome {
+  border: 2px solid white;
+  font-family: monospace;
+  font-size: x-large;
+
+}
+
+.bag-bottom-3d {
+  position: absolute;
+  width: 295px;
+  background: #191348;
+  height: 266px;
+  z-index: -1;
+  border-radius: 5px 5px 25px 18px;
+  box-shadow: -1px 0px 20px 0px #7b7777;
+  transform: translate(6px, -5px);
+}
