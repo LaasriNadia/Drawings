@@ -56,10 +56,12 @@ body {
 .sky {
   width: 100%;
   height: 300px;
-  background: linear-gradient(180deg,
-      rgba(2, 2, 11, 1) 35%,
-      rgba(13, 13, 71, 1) 100%,
-      rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 2, 11, 1) 35%,
+    rgba(13, 13, 71, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   position: relative;
 }
 
@@ -220,24 +222,30 @@ body {
 }
 
 .square.dark {
-  background: linear-gradient(0deg,
-      rgba(47, 46, 47, 1) 0%,
-      rgba(32, 32, 32, 1) 100%,
-      rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(47, 46, 47, 1) 0%,
+    rgba(32, 32, 32, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .square.gradient {
-  background: linear-gradient(0deg,
-      rgba(63, 61, 64, 1) 14%,
-      rgba(32, 32, 32, 1) 100%,
-      rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(63, 61, 64, 1) 14%,
+    rgba(32, 32, 32, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .square.light {
-  background: linear-gradient(0deg,
-      rgba(127, 125, 128, 1) 0%,
-      rgba(32, 32, 32, 1) 100%,
-      rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(127, 125, 128, 1) 0%,
+    rgba(32, 32, 32, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 .end {
@@ -311,10 +319,12 @@ body {
   position: absolute;
   width: 22px;
   height: 22px;
-  background: radial-gradient(circle,
-      rgba(247, 170, 56, 1) 0%,
-      rgba(231, 114, 81, 1) 14%,
-      rgba(169, 32, 0, 1) 46%);
+  background: radial-gradient(
+    circle,
+    rgba(247, 170, 56, 1) 0%,
+    rgba(231, 114, 81, 1) 14%,
+    rgba(169, 32, 0, 1) 46%
+  );
   border-radius: 50%;
   box-shadow: 1px 3px 12px #ffffff;
 }
@@ -607,7 +617,12 @@ body {
 }
 
 .window {
-  background: linear-gradient(180deg, rgb(88, 138, 197) 19%, rgb(87, 157, 193) 66%, rgb(9, 116, 134) 92%);
+  background: linear-gradient(
+    180deg,
+    rgb(88, 138, 197) 19%,
+    rgb(87, 157, 193) 66%,
+    rgb(9, 116, 134) 92%
+  );
 
   margin: 0 auto;
   width: 300px;
@@ -665,29 +680,46 @@ body {
 
 .incline-bottom {
   clip-path: polygon(0 12%, 100% 0, 100% 78%, 0 100%);
-  background: linear-gradient(180deg, rgba(88, 152, 194, 1) 27%, rgba(84, 155, 191, 1) 53%, rgba(56, 141, 170, 1) 78%);
+  background: linear-gradient(
+    180deg,
+    rgba(88, 152, 194, 1) 27%,
+    rgba(84, 155, 191, 1) 53%,
+    rgba(56, 141, 170, 1) 78%
+  );
   box-shadow: inset -2px -3px 0px #4641418a;
-
 }
 
 .incline-top {
   clip-path: polygon(0 0, 100% 14%, 100% 85%, 0 95%);
-  background: linear-gradient(180deg, rgba(88, 138, 196, 1) 27%, rgba(88, 143, 196, 1) 53%, rgba(87, 146, 195, 1) 78%);
+  background: linear-gradient(
+    180deg,
+    rgba(88, 138, 196, 1) 27%,
+    rgba(88, 143, 196, 1) 53%,
+    rgba(87, 146, 195, 1) 78%
+  );
   box-shadow: inset -3px -3px 0px #4641418a;
-
 }
 
 .incline-right-bottom {
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 84%);
-  background: linear-gradient(180deg, rgba(88, 152, 194, 1) 27%, rgba(84, 155, 191, 1) 53%, rgba(56, 141, 170, 1) 78%);
+  background: linear-gradient(
+    180deg,
+    rgba(88, 152, 194, 1) 27%,
+    rgba(84, 155, 191, 1) 53%,
+    rgba(56, 141, 170, 1) 78%
+  );
   box-shadow: inset 2px -3px 0px #4641418a;
 }
 
 .incline-right-top {
   clip-path: polygon(1% 11%, 100% 0, 100% 100%, 0 88%);
-  background: linear-gradient(180deg, rgba(88, 138, 196, 1) 27%, rgba(88, 143, 196, 1) 53%, rgba(87, 146, 195, 1) 78%);
+  background: linear-gradient(
+    180deg,
+    rgba(88, 138, 196, 1) 27%,
+    rgba(88, 143, 196, 1) 53%,
+    rgba(87, 146, 195, 1) 78%
+  );
   box-shadow: inset 2px 2px 0px #4641418a;
-
 }
 
 .key-item {
@@ -703,10 +735,8 @@ body {
 }
 
 .key-left-top {
-
   left: 20%;
   top: 20%;
-
 }
 
 .key-left-bottom {
@@ -722,7 +752,6 @@ body {
 .key-right-bottom {
   right: 20%;
   bottom: 35%;
-
 }
 
 .key-circle {
@@ -773,7 +802,7 @@ body {
   left: 65px;
   border-radius: 50%;
   position: absolute;
-  z-index: 99
+  z-index: 99;
 }
 
 .bag-top-2 {
@@ -808,7 +837,6 @@ body {
   border: 2px solid white;
   font-family: monospace;
   font-size: x-large;
-
 }
 
 .bag-bottom-3d {
@@ -820,4 +848,59 @@ body {
   border-radius: 5px 5px 25px 18px;
   box-shadow: -1px 0px 20px 0px #7b7777;
   transform: translate(6px, -5px);
+}
+
+.eye_cont {
+  width: 500px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+.eye {
+  width: 200px;
+  height: 200px;
+  background: white;
+  margin: 0 auto;
+  border-radius: 75% 0;
+  transform: rotate(45deg);
+  position: relative;
+  overflow: hidden;
+}
+.eye-ball {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 13%,
+    rgba(45, 96, 124, 1) 36%,
+    rgba(72, 154, 199, 1) 87%
+  );
+
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.eye-top {
+  width: 300px;
+  height: 160px;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.eye-top span {
+  display: block;
+  width: 100%;
+  height: 20%;
+  background: #fdb78c;
+  border-radius: 0px 0px 60% 60%;
+  transition: all 0.3s;
+}
+.eye:hover > .eye-top span {
+  height: 100%;
 }
