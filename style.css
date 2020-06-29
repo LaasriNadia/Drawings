@@ -1030,3 +1030,179 @@ body {
   top: 145px;
   transform: rotate(-52deg);
 }
+
+/* macarons */
+.macaroncs {
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  background: #eee;
+  justify-content: center;
+  align-items: center;
+}
+
+.macaron {
+  position: relative;
+}
+
+.macaron-side {
+  width: 69px;
+  height: 17px;
+  position: relative;
+  z-index: 99;
+}
+
+.macaron-top {
+  border-radius: 52px 58px 0px 0px;
+  background: linear-gradient(180deg, rgba(199, 102, 89, 1) 7%, rgba(232, 150, 140, 1) 64%, rgba(244, 211, 214, 1) 85%);
+
+}
+
+.macaron-bottom {
+  border-radius: 0px 0px 52px 58px;
+  background: linear-gradient(0deg, rgba(199, 102, 89, 1) 7%, rgba(232, 150, 140, 1) 64%, rgba(244, 211, 214, 1) 85%);
+  margin-top: 14px;
+}
+
+.macaron-top::after {
+  content: '';
+  top: 55%;
+  border: 0.1px solid #dd7772;
+  position: absolute;
+  width: 70px;
+
+  height: 10px;
+  left: -2px;
+  border-radius: 40px;
+  background: #f2c2be;
+  box-shadow: inset -8px -2px 7px 0px #d4635880;
+}
+
+.macaron-bottom::before {
+  content: '';
+  width: 70px;
+  bottom: 55%;
+  background: #f2c2be;
+  box-shadow: inset -8px -2px 7px 0px #d4635880;
+
+  border: 0.1px solid #dd7772;
+  position: absolute;
+
+  height: 10px;
+  left: -2px;
+  border-radius: 40px;
+}
+
+.macaron-inside {
+  width: 66px;
+  height: 10px;
+  top: 19px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.macaron-inside1 {
+  border: 0.1px solid #e3b0ac;
+  background: linear-gradient(270deg, rgba(244, 183, 188, 1) 25%, rgba(242, 205, 201, 1) 71%, rgba(252, 249, 248, 1) 95%);
+
+}
+
+.macaron-top2 {
+  border-radius: 52px 58px 0px 0px;
+  background: linear-gradient(180deg, #c98e4b 7%, #e2c092 64%, rgba(244, 211, 214, 1) 85%);
+
+}
+
+.macaron-bottom2 {
+  border-radius: 0px 0px 52px 58px;
+  background: linear-gradient(0deg, #c98e4b 7%, #e2c092 64%, rgba(244, 211, 214, 1) 85%);
+  margin-top: 14px;
+}
+
+.macaron-inside2 {
+  border: 0.1px solid #dbb78b;
+  background: #82330d
+}
+
+.macaron-top2::after {
+  content: '';
+  top: 55%;
+  border: 0.1px solid #82330d59;
+  position: absolute;
+  width: 70px;
+
+  height: 10px;
+  left: -2px;
+  border-radius: 40px;
+  background: #c8934a;
+  box-shadow: inset -8px -2px 7px 0px #d4635880;
+}
+
+.macaron-bottom2::before {
+  content: '';
+  width: 70px;
+  bottom: 55%;
+  background: #c8934a;
+  box-shadow: inset -8px -2px 7px 0px #d4635880;
+
+  border: 0.1px solid #82330d59;
+  position: absolute;
+
+  height: 10px;
+  left: -2px;
+  border-radius: 40px;
+}
+
+.macaron-top3 {
+  border-radius: 52px 58px 0px 0px;
+  background: linear-gradient(180deg, #62681f 7%, #c1ce87 64%, rgba(244, 211, 214, 1) 85%);
+  transform: rotate(8deg);
+}
+
+.macaron-bottom3 {
+  border-radius: 0px 0px 52px 58px;
+  background: linear-gradient(0deg, #62681f 7%, #c1ce87 64%, rgba(244, 211, 214, 1) 85%);
+  margin-top: 14px;
+  box-shadow: -6px 16px 9px 0px #6c6d6940;
+}
+
+.macaron-inside3 {
+  border: 0.1px solid #b2dda7;
+  background: #eaf5d2fa;
+  top: 16px;
+}
+
+.macaron-top3::after {
+  content: '';
+  top: 55%;
+  border: 0.1px solid #a0af59;
+  position: absolute;
+  width: 70px;
+
+  height: 10px;
+  left: -2px;
+  border-radius: 40px;
+  background: #d3dda4;
+  box-shadow: inset -8px -2px 7px 0px #d3dda4;
+}
+
+.macaron-bottom3::before {
+  content: '';
+  width: 70px;
+  bottom: 55%;
+  background: #d3dda4;
+  box-shadow: inset -8px -2px 7px 0px #d3dda4;
+
+  border: 0.1px solid #a0af59;
+  position: absolute;
+
+  height: 10px;
+  left: -2px;
+  border-radius: 40px;
+}
+
+.macaron-rotated {
+  transform: rotate(45deg);
+  bottom: 10px
+}
