@@ -1206,3 +1206,59 @@ body {
   transform: rotate(45deg);
   bottom: 10px
 }
+
+/* mask */
+.mask-cont {
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  background: #16b783;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask-middle {
+  background: #e8f7fa;
+  width: 200px;
+  height: 60px;
+  border-radius: 50% 50% 0px 0px;
+  position: relative;
+  z-index: 99;
+}
+
+.mask-middle::after {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 100px;
+  background: #e8f7fa;
+  content: '';
+  top: 35px;
+  border-radius: 20px 20px 50% 50%;
+}
+
+.mask-left {
+  position: relative;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid #abdee3;
+  transform: rotate(-20deg);
+  width: 25px;
+  height: 119px;
+  right: 215px;
+  top: 25px;
+
+}
+
+.mask-right {
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid #abdee3;
+  transform: rotate(20deg);
+  width: 25px;
+  height: 119px;
+  position: relative;
+  left: -43px;
+  top: 25px;
+}
