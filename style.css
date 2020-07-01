@@ -56,12 +56,10 @@ body {
 .sky {
   width: 100%;
   height: 300px;
-  background: linear-gradient(
-    180deg,
-    rgba(2, 2, 11, 1) 35%,
-    rgba(13, 13, 71, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(2, 2, 11, 1) 35%,
+      rgba(13, 13, 71, 1) 100%,
+      rgba(0, 212, 255, 1) 100%);
   position: relative;
 }
 
@@ -222,30 +220,24 @@ body {
 }
 
 .square.dark {
-  background: linear-gradient(
-    0deg,
-    rgba(47, 46, 47, 1) 0%,
-    rgba(32, 32, 32, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(47, 46, 47, 1) 0%,
+      rgba(32, 32, 32, 1) 100%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 .square.gradient {
-  background: linear-gradient(
-    0deg,
-    rgba(63, 61, 64, 1) 14%,
-    rgba(32, 32, 32, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(63, 61, 64, 1) 14%,
+      rgba(32, 32, 32, 1) 100%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 .square.light {
-  background: linear-gradient(
-    0deg,
-    rgba(127, 125, 128, 1) 0%,
-    rgba(32, 32, 32, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      rgba(127, 125, 128, 1) 0%,
+      rgba(32, 32, 32, 1) 100%,
+      rgba(0, 212, 255, 1) 100%);
 }
 
 .end {
@@ -319,12 +311,10 @@ body {
   position: absolute;
   width: 22px;
   height: 22px;
-  background: radial-gradient(
-    circle,
-    rgba(247, 170, 56, 1) 0%,
-    rgba(231, 114, 81, 1) 14%,
-    rgba(169, 32, 0, 1) 46%
-  );
+  background: radial-gradient(circle,
+      rgba(247, 170, 56, 1) 0%,
+      rgba(231, 114, 81, 1) 14%,
+      rgba(169, 32, 0, 1) 46%);
   border-radius: 50%;
   box-shadow: 1px 3px 12px #ffffff;
 }
@@ -617,12 +607,10 @@ body {
 }
 
 .window {
-  background: linear-gradient(
-    180deg,
-    rgb(88, 138, 197) 19%,
-    rgb(87, 157, 193) 66%,
-    rgb(9, 116, 134) 92%
-  );
+  background: linear-gradient(180deg,
+      rgb(88, 138, 197) 19%,
+      rgb(87, 157, 193) 66%,
+      rgb(9, 116, 134) 92%);
 
   margin: 0 auto;
   width: 300px;
@@ -680,45 +668,37 @@ body {
 
 .incline-bottom {
   clip-path: polygon(0 12%, 100% 0, 100% 78%, 0 100%);
-  background: linear-gradient(
-    180deg,
-    rgba(88, 152, 194, 1) 27%,
-    rgba(84, 155, 191, 1) 53%,
-    rgba(56, 141, 170, 1) 78%
-  );
+  background: linear-gradient(180deg,
+      rgba(88, 152, 194, 1) 27%,
+      rgba(84, 155, 191, 1) 53%,
+      rgba(56, 141, 170, 1) 78%);
   box-shadow: inset -2px -3px 0px #4641418a;
 }
 
 .incline-top {
   clip-path: polygon(0 0, 100% 14%, 100% 85%, 0 95%);
-  background: linear-gradient(
-    180deg,
-    rgba(88, 138, 196, 1) 27%,
-    rgba(88, 143, 196, 1) 53%,
-    rgba(87, 146, 195, 1) 78%
-  );
+  background: linear-gradient(180deg,
+      rgba(88, 138, 196, 1) 27%,
+      rgba(88, 143, 196, 1) 53%,
+      rgba(87, 146, 195, 1) 78%);
   box-shadow: inset -3px -3px 0px #4641418a;
 }
 
 .incline-right-bottom {
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0 84%);
-  background: linear-gradient(
-    180deg,
-    rgba(88, 152, 194, 1) 27%,
-    rgba(84, 155, 191, 1) 53%,
-    rgba(56, 141, 170, 1) 78%
-  );
+  background: linear-gradient(180deg,
+      rgba(88, 152, 194, 1) 27%,
+      rgba(84, 155, 191, 1) 53%,
+      rgba(56, 141, 170, 1) 78%);
   box-shadow: inset 2px -3px 0px #4641418a;
 }
 
 .incline-right-top {
   clip-path: polygon(1% 11%, 100% 0, 100% 100%, 0 88%);
-  background: linear-gradient(
-    180deg,
-    rgba(88, 138, 196, 1) 27%,
-    rgba(88, 143, 196, 1) 53%,
-    rgba(87, 146, 195, 1) 78%
-  );
+  background: linear-gradient(180deg,
+      rgba(88, 138, 196, 1) 27%,
+      rgba(88, 143, 196, 1) 53%,
+      rgba(87, 146, 195, 1) 78%);
   box-shadow: inset 2px 2px 0px #4641418a;
 }
 
@@ -875,12 +855,10 @@ body {
 .eye-ball {
   width: 80px;
   height: 80px;
-  background: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 1) 13%,
-    rgba(45, 96, 124, 1) 36%,
-    rgba(72, 154, 199, 1) 87%
-  );
+  background: radial-gradient(circle,
+      rgba(0, 0, 0, 1) 13%,
+      rgba(45, 96, 124, 1) 36%,
+      rgba(72, 154, 199, 1) 87%);
 
   border-radius: 50%;
   position: absolute;
@@ -908,7 +886,7 @@ body {
   transition: all 0.3s;
 }
 
-.eye:hover > .eye-top span {
+.eye:hover>.eye-top span {
   height: 100%;
 }
 
@@ -930,11 +908,9 @@ body {
 .sushi {
   width: 100px;
   height: 90px;
-  background: linear-gradient(
-    266deg,
-    rgba(42, 58, 48, 1) 13%,
-    rgba(37, 71, 57, 1) 61%
-  );
+  background: linear-gradient(266deg,
+      rgba(42, 58, 48, 1) 13%,
+      rgba(37, 71, 57, 1) 61%);
   transform: rotate3d(1, 1, 2, -26deg);
   border-radius: 0px 0px 5px 5px;
 }
@@ -985,11 +961,9 @@ body {
   border-top-color: #477c48;
   position: relative;
   transform: rotate3d(0, 0, -3, 45deg);
-  background: linear-gradient(
-    270deg,
-    rgba(246, 148, 135, 1) 44%,
-    rgba(253, 234, 194, 1) 52%
-  );
+  background: linear-gradient(270deg,
+      rgba(246, 148, 135, 1) 44%,
+      rgba(253, 234, 194, 1) 52%);
 }
 
 .sushi-rice {
@@ -1081,22 +1055,18 @@ body {
 
 .macaron-top {
   border-radius: 52px 58px 0px 0px;
-  background: linear-gradient(
-    180deg,
-    rgba(199, 102, 89, 1) 7%,
-    rgba(232, 150, 140, 1) 64%,
-    rgba(244, 211, 214, 1) 85%
-  );
+  background: linear-gradient(180deg,
+      rgba(199, 102, 89, 1) 7%,
+      rgba(232, 150, 140, 1) 64%,
+      rgba(244, 211, 214, 1) 85%);
 }
 
 .macaron-bottom {
   border-radius: 0px 0px 52px 58px;
-  background: linear-gradient(
-    0deg,
-    rgba(199, 102, 89, 1) 7%,
-    rgba(232, 150, 140, 1) 64%,
-    rgba(244, 211, 214, 1) 85%
-  );
+  background: linear-gradient(0deg,
+      rgba(199, 102, 89, 1) 7%,
+      rgba(232, 150, 140, 1) 64%,
+      rgba(244, 211, 214, 1) 85%);
   margin-top: 14px;
 }
 
@@ -1139,32 +1109,26 @@ body {
 
 .macaron-inside1 {
   border: 0.1px solid #e3b0ac;
-  background: linear-gradient(
-    270deg,
-    rgba(244, 183, 188, 1) 25%,
-    rgba(242, 205, 201, 1) 71%,
-    rgba(252, 249, 248, 1) 95%
-  );
+  background: linear-gradient(270deg,
+      rgba(244, 183, 188, 1) 25%,
+      rgba(242, 205, 201, 1) 71%,
+      rgba(252, 249, 248, 1) 95%);
 }
 
 .macaron-top2 {
   border-radius: 52px 58px 0px 0px;
-  background: linear-gradient(
-    180deg,
-    #c98e4b 7%,
-    #e2c092 64%,
-    rgba(244, 211, 214, 1) 85%
-  );
+  background: linear-gradient(180deg,
+      #c98e4b 7%,
+      #e2c092 64%,
+      rgba(244, 211, 214, 1) 85%);
 }
 
 .macaron-bottom2 {
   border-radius: 0px 0px 52px 58px;
-  background: linear-gradient(
-    0deg,
-    #c98e4b 7%,
-    #e2c092 64%,
-    rgba(244, 211, 214, 1) 85%
-  );
+  background: linear-gradient(0deg,
+      #c98e4b 7%,
+      #e2c092 64%,
+      rgba(244, 211, 214, 1) 85%);
   margin-top: 14px;
 }
 
@@ -1204,23 +1168,19 @@ body {
 
 .macaron-top3 {
   border-radius: 52px 58px 0px 0px;
-  background: linear-gradient(
-    180deg,
-    #62681f 7%,
-    #c1ce87 64%,
-    rgba(244, 211, 214, 1) 85%
-  );
+  background: linear-gradient(180deg,
+      #62681f 7%,
+      #c1ce87 64%,
+      rgba(244, 211, 214, 1) 85%);
   transform: rotate(8deg);
 }
 
 .macaron-bottom3 {
   border-radius: 0px 0px 52px 58px;
-  background: linear-gradient(
-    0deg,
-    #62681f 7%,
-    #c1ce87 64%,
-    rgba(244, 211, 214, 1) 85%
-  );
+  background: linear-gradient(0deg,
+      #62681f 7%,
+      #c1ce87 64%,
+      rgba(244, 211, 214, 1) 85%);
   margin-top: 14px;
   box-shadow: -6px 16px 9px 0px #6c6d6940;
 }
@@ -1285,6 +1245,7 @@ body {
   z-index: 99;
   border: 4px solid #cbe9f4;
 }
+
 .mask-shadow1 {
   background: #aedbe1;
   width: 150px;
@@ -1295,6 +1256,7 @@ body {
   z-index: 999;
   top: 50%;
 }
+
 .mask-shadow2 {
   background: #aedbe1;
   width: 150px;
@@ -1305,6 +1267,7 @@ body {
   z-index: 999;
   top: 100%;
 }
+
 .mask-shadow3 {
   background: #aedbe1;
   width: 100px;
@@ -1315,16 +1278,15 @@ body {
   z-index: 999;
   top: 160%;
 }
+
 .mask-middle::after {
   position: absolute;
   display: block;
   width: 200px;
   height: 100px;
-  background: linear-gradient(
-    180deg,
-    rgba(230, 244, 247, 1) 25%,
-    rgba(202, 231, 245, 1) 51%
-  );
+  background: linear-gradient(180deg,
+      rgba(230, 244, 247, 1) 25%,
+      rgba(202, 231, 245, 1) 51%);
   content: '';
   border: 4px solid #cbe9f4;
   left: -4px;
@@ -1355,4 +1317,87 @@ body {
   position: relative;
   left: -43px;
   top: 25px;
+}
+
+/* .drinks */
+.drinks {
+  width: 200px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.can {
+  margin-right: 30px;
+  position: relative;
+}
+
+.can-top {
+  width: 122px;
+  height: 4px;
+  background: black;
+  position: absolute;
+  border-radius: 50%;
+  top: 13px;
+  left: 6%;
+  z-index: 99;
+  border: 3px solid #cfcfd3;
+}
+
+.can-middle {
+  width: 148px;
+  height: 250px;
+  background: linear-gradient(180deg, rgba(31, 63, 131, 1) 6%, rgba(2, 79, 160, 1) 24%, rgba(1, 113, 60, 1) 42%, rgba(6, 177, 102, 1) 75%);
+  clip-path: polygon(9% 0, 90% 0, 100% 12%, 100% 100%, 0 100%, 0 10%);
+  border-radius: 10px;
+  box-shadow: inset -6px 1px 20px 9px #443f3b8a;
+  top: 20px;
+  position: relative;
+}
+
+.can-middle-logo {
+  background: url(./assets/sprite.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 251px;
+  position: absolute;
+  left: -58px;
+  top: 22px;
+  height: 201px;
+  background-size: cover;
+  transform: rotateZ(-37deg);
+}
+
+.can-bottom {
+  box-sizing: border-box;
+  border: 2px solid #a2a2a2;
+  width: 119px;
+  height: 7px;
+  background: #cfcfd3;
+  position: absolute;
+  bottom: -27px;
+  left: 13px;
+  box-shadow: inset 12px 7px 20px 0px #443f3b8a;
+  border-radius: 10px;
+}
+
+.can-middle-back {
+  height: 100%;
+  text-align: center;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  ;
+  font-size: 10px;
+  flex-direction: column;
+}
+
+.can-middle-back ul {
+  list-style: none;
+  margin: 2px;
+  border: 1px solid #d6cbcb;
 }
