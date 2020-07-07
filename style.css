@@ -2120,3 +2120,62 @@ body {
   top: 60%;
   box-shadow: 0px 20px 20px 0px #dcd9d96e;
 }
+
+/* notebook */
+.notebook-cont {
+  margin: 0 auto;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dadadacf;
+  position: relative;
+}
+
+.notebook {
+  padding-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  width: 160px;
+  font-size: 20px;
+  font-family: sans-serif;
+  height: 200px;
+  color: white;
+  background: #f8d818;
+  transform: rotate(8deg) skew(10deg, 2deg);
+  box-shadow: 3px 4px 11px #9a9494;
+  margin-bottom: 11px;
+}
+.notebook-papers {
+  width: 10px;
+  height: 200px;
+  background: white;
+  transform: rotate(8deg) skew(10deg, -56deg);
+  border-right: 2px solid #f8d818;
+}
+.notebook-papers-top {
+  width: 160px;
+  height: 18px;
+  background: white;
+  right: 222px;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  top: 126px;
+  position: absolute;
+  transform: rotate(9deg) skew(-33deg, 1deg);
+  border-top: 2px solid #f8d818;
+  border-left: 2px solid #f8d818;
+  box-sizing: border-box;
+  border-right: 0.1px solid #00000021;
+}
+.notebook-papers-top::before {
+  z-index: 9999;
+  content: '';
+  width: 161px;
+  height: 3.5px;
+  background-color: #f8d818;
+  display: block;
+  transform: rotate(-6deg);
+  position: relative;
+  top: 5px;
+}
