@@ -2179,3 +2179,65 @@ body {
   position: relative;
   top: 5px;
 }
+
+/* chair */
+.chair-cont {
+  width: 200px;
+  height: 400px;
+  /* background: gray; */
+  position: relative;
+  margin: 0 auto;
+}
+
+.chair-top {
+  position: absolute;
+  right: 21px;
+  top: 127px;
+  width: 86px;
+  height: 185px;
+  margin: 0 auto;
+  border-right: 10px solid #654a43;
+  border-left: 10px solid #654a43;
+  border-top: 10px solid #654a43;
+  background: linear-gradient(
+    180deg,
+    rgba(204, 182, 171, 1) 25%,
+    rgba(255, 255, 255, 1) 26%
+  );
+  border-radius: 12px 12px 0 0;
+}
+.chair {
+  position: absolute;
+  left: 40px;
+  bottom: 138px;
+  width: 123px;
+  height: 25px;
+  margin: 0 auto;
+  background: #ccb6ab;
+  border-radius: 18px 24px 5px 27px;
+  transform: rotate(349deg) skew(-64deg, 11deg);
+}
+.chair::after {
+  content: '';
+  left: 127px;
+  bottom: -6px;
+  width: 15px;
+  display: block;
+  height: 20;
+  height: 10px;
+  background: #654a43;
+  transform: rotate(49deg) skew(-69deg, 43deg);
+  position: absolute;
+}
+.chair-bottom {
+  position: absolute;
+  left: 28px;
+  bottom: 31px;
+  width: 91px;
+  height: 88px;
+  margin: 0 auto;
+  border-right: 10px solid #654a43;
+  border-left: 10px solid #654a43;
+  border-top: 14px solid #654a43;
+  background: transparent;
+}
