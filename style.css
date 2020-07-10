@@ -2240,3 +2240,97 @@ body {
   border-top: 14px solid #654a43;
   background: transparent;
 }
+
+/* lighthouse */
+
+.lighthouse-cont {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgba(75, 175, 242, 1) 25%,
+    rgba(104, 181, 235, 1) 61%,
+    rgba(151, 194, 223, 1) 80%
+  );
+}
+.lighthouse-top-circle {
+  position: absolute;
+  background: black;
+  width: 60px;
+  height: 13px;
+  border-radius: 50% 50% 0 0;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lighthouse {
+  position: absolute;
+  width: 100px;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  display: flex;
+  flex-direction: column;
+}
+.lighthouse-top-window {
+  z-index: 99;
+  position: absolute;
+  top: 16%;
+  left: 42%;
+  background: #ffffff9e;
+  width: 64px;
+  height: 16px;
+  display: flex;
+}
+.lighthouse-top-window::after {
+  position: absolute;
+  left: 62px;
+  top: -17px;
+  content: '';
+  width: 157px;
+  height: 60px;
+  background: #fff;
+  z-index: -1;
+  clip-path: polygon(0 54%, 0 43%, 100% 0, 100% 98%);
+}
+.lighthouse-top-window::before {
+  position: absolute;
+  right: 62px;
+  top: -20px;
+  content: '';
+  width: 157px;
+  height: 60px;
+  background: #fff;
+  z-index: -1;
+  clip-path: polygon(0 54%, 0 43%, 100% 0, 100% 98%);
+  transform: rotate(180deg);
+}
+.lighthouse-top-window-item {
+  width: 25px;
+  height: 12px;
+  border: 2px solid black;
+}
+.lighthouse > * {
+  box-shadow: inset -20px 0px 0px 1px #1d18182e;
+  height: 50px;
+}
+.lighthouse-red {
+  background: red;
+}
+.lighthouse-white {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lighthouse-window {
+  width: 10px;
+  height: 20px;
+  background: black;
+  border-radius: 10px 10px 0 0;
+  box-shadow: -2px -1px 0px 1px #73726f;
+}
