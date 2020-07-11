@@ -1805,16 +1805,17 @@ body {
 .cake-cont {
   margin: 0 auto;
   width: 500px;
-  height: 500px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
 }
 
 .cake {
   position: relative;
   width: 300px;
-  height: 300px;
+  height: 270px;
 }
 
 .cake-top {
@@ -1949,7 +1950,7 @@ body {
 .glasses-cont {
   margin: 0 auto;
   width: 600px;
-  height: 500px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
