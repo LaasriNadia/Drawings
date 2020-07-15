@@ -2700,3 +2700,142 @@ body {
   left: 66px;
   border-radius: 50%;
 }
+
+/* spongebob */
+.spongebob {
+  position: relative;
+  background: #f7f22d;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.spongebob-mouth {
+  position: absolute;
+  background: transparent;
+  width: 120px;
+  height: 65px;
+  border-radius: 50%;
+  right: 30%;
+  top: 22%;
+  border-bottom: 2px solid black;
+}
+.spongebob-mouth::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 53%;
+  left: -3px;
+  width: 7px;
+  border-radius: 10px 10px 0 0;
+  height: 2px;
+  transform: rotate(-21deg);
+  background: black;
+}
+.spongebob-mouth::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 53%;
+  right: -3px;
+  width: 7px;
+  border-radius: 10px 10px 0 0;
+  height: 2px;
+  transform: rotate(21deg);
+  background: black;
+}
+.spongebob-eye {
+  position: absolute;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.spongebob-eye-right {
+  top: 20%;
+  right: 32%;
+}
+.spongebob-eye-right::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 56%;
+  right: -18px;
+  width: 18px;
+  border-radius: 10px;
+  height: 18px;
+  transform: rotate(21deg);
+  background: transparent;
+  border: 2px solid red;
+  border-bottom: none;
+}
+.spongebob-eye-left::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 56%;
+  left: -18px;
+  width: 18px;
+  border-radius: 10px;
+  height: 18px;
+  transform: rotate(-21deg);
+  background: transparent;
+  border: 2px solid red;
+  border-bottom: none;
+}
+.spongebob-inside-eye {
+  position: absolute;
+  background: radial-gradient(
+    circle,
+    rgba(0, 1, 3, 1) 41%,
+    rgba(69, 198, 242, 1) 42%
+  );
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.spongebob-eye-left {
+  top: 20%;
+  left: 32%;
+}
+.spongebob-inside-eye-right {
+  top: 30%;
+  right: 32%;
+}
+.spongebob-inside-eye-left {
+  top: 30%;
+  left: 32%;
+}
+.spongebob-nose {
+  position: absolute;
+  background: #f7f22d;
+  width: 11px;
+  height: 13px;
+  border: 2px solid black;
+  top: 35%;
+  border-radius: 10px;
+  left: 48%;
+  border-bottom: none;
+  transform: rotate(13deg);
+}
+.spongebob-teeth {
+  position: absolute;
+  background: #fff;
+  width: 10px;
+  height: 7px;
+  border: 1px solid black;
+}
+.spongebob-teeth-right {
+  top: 55%;
+  right: 136px;
+  transform: rotate(175deg);
+}
+.spongebob-teeth-left {
+  top: 55%;
+  left: 136px;
+  transform: rotate(-175deg);
+}
