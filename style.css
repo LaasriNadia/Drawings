@@ -2708,7 +2708,6 @@ body {
   width: 300px;
   height: 200px;
   margin: 0 auto;
-  margin-bottom: 150px;
 }
 .spongebob-mouth {
   position: absolute;
@@ -2838,4 +2837,98 @@ body {
   top: 55%;
   left: 136px;
   transform: rotate(-175deg);
+}
+
+/* piano */
+.piano {
+  position: relative;
+  background: #361f15;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  transform: rotateX(60deg);
+}
+.piano-key {
+  position: absolute;
+  background: #fdfcf7;
+  width: 25px;
+  height: 100px;
+  top: 22%;
+  border: 1px solid #866e66;
+  box-shadow: inset 0px 3px 0px 6px #f4f4ec;
+}
+
+.piano-key-1 {
+  right: 5%;
+}
+.piano-key-2 {
+  right: 13%;
+}
+.piano-key-3 {
+  right: 21%;
+}
+.piano-key-4 {
+  right: 29%;
+}
+.piano-key-5 {
+  right: 37%;
+}
+.piano-key-6 {
+  right: 45%;
+}
+.piano-key-7 {
+  right: 53%;
+}
+.piano-key-8 {
+  right: 61%;
+}
+.piano-key-9 {
+  right: 69%;
+}
+.piano-key-10 {
+  right: 77%;
+}
+.piano-key-11 {
+  right: 85%;
+}
+.piano-key::after {
+  content: '';
+  width: 25px;
+  height: 29px;
+  background: #e3e4e2;
+  box-shadow: inset 1px 3px 0px 0px #acacac;
+  display: block;
+  position: absolute;
+  top: 100%;
+  border: 1px solid #866e66;
+  margin-left: -1px;
+}
+.piano-key::before {
+  content: '';
+  width: 7px;
+  height: 66px;
+  background: #1b130e;
+  box-shadow: inset 1px 5px 8px 1px #787166;
+  display: block;
+  position: absolute;
+  top: 0%;
+  right: 76%;
+  z-index: 9;
+  border: 1px solid #09040c;
+  margin-left: -1px;
+}
+
+.piano-key:nth-child(11)::before,
+.piano-key:nth-child(7)::before,
+.piano-key:nth-child(4)::before {
+  display: none;
+}
+.piano-key:hover {
+  cursor: pointer;
+  height: 112px;
+  box-shadow: inset 1px -3px 1px 0px #4c4d48;
+}
+.piano-key:hover::after {
+  height: 16px;
 }
