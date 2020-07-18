@@ -1764,10 +1764,8 @@ body {
   position: absolute;
   background: #ffffff;
   border-radius: 32px;
-  top: -39px;
   transform: rotate(-36deg);
   z-index: -1;
-  left: -44px;
   border: 15px solid #dbdbdb;
   top: 56%;
   left: 66%;
