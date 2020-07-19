@@ -2912,7 +2912,6 @@ body {
   width: 300px;
   height: 200px;
   margin: 0 auto;
-  margin-bottom: 150px;
 }
 
 .tea-top {
@@ -3013,4 +3012,245 @@ body {
   left: 55%;
   border-radius: 0px 100px;
   box-shadow: inset 2px 1px 1px #347522;
+}
+
+/* drum set */
+.drum-set {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.drum1 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #ce2329;
+  border: 2px solid #252525;
+  bottom: 0;
+  left: 40%;
+}
+
+.drum1::before {
+  content: '╽';
+  display: block;
+  position: absolute;
+  font-size: 33px;
+  top: -36px;
+  left: 25px;
+  color: #5c6767;
+}
+
+.drum1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  top: 13%;
+  left: 0px;
+  background: #5c6767;
+  border: 1px solid #252525;
+}
+
+.drum2 {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  background: #ce2329;
+  bottom: 12%;
+  left: 25%;
+  border-radius: 0 0 11px 11px;
+}
+
+.drum2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 50%;
+  bottom: 77%;
+  left: 0px;
+  background: #5c6767;
+}
+
+.drum2::after {
+  content: '↧';
+  display: block;
+  position: absolute;
+  font-size: 70px;
+  top: 68%;
+  left: 8px;
+  color: #5c6767;
+}
+
+.drum3 {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background: #ce2329;
+  bottom: 10%;
+  right: 20%;
+  border-radius: 0 0 11px 11px;
+}
+
+.drum3::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  border-radius: 50%;
+  bottom: 59%;
+  left: 0px;
+  background: #5c6767;
+}
+
+.drum3::after {
+  content: '↧';
+  display: block;
+  position: absolute;
+  font-size: 70px;
+  top: 34%;
+  left: 8px;
+  color: #5c6767;
+}
+
+.drum4 {
+  position: absolute;
+  width: 55px;
+  height: 60px;
+  background: #ce2329;
+  bottom: 34%;
+  left: 29%;
+  border-top: 1px solid #252525;
+  border-radius: 11px 11px 0 0;
+  transform: rotate(17deg);
+}
+
+.drum4::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 55px;
+  height: 18px;
+  border-radius: 50%;
+  top: 83%;
+  left: 0px;
+  background: #5c6767;
+}
+
+.drum4::after {
+  content: '╼';
+  display: block;
+  position: absolute;
+  top: -1%;
+  left: 99%;
+  color: #5c6767;
+  font-size: 35px;
+}
+
+
+.drum5 {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  background: #ce2329;
+  bottom: 40%;
+  right: 29%;
+  border-top: 1px solid #252525;
+  border-radius: 11px 11px 0 0;
+  transform: rotate(-17deg);
+}
+
+.drum5::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  border-radius: 50%;
+  top: 83%;
+  left: 0px;
+  background: #5c6767;
+}
+
+.drum5::after {
+  content: '╾';
+  display: block;
+  position: absolute;
+  top: -5%;
+  right: 99%;
+  color: #5c6767;
+  font-size: 35px;
+}
+
+.drum-set-right {
+  position: absolute;
+  width: 50px;
+  height: 12px;
+  background: #ddcd5f;
+  bottom: 27%;
+  right: 11%;
+  border-radius: 50%
+}
+
+.drum-set-right::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 6px;
+  top: -21%;
+  left: 22px;
+  background: #5c6767;
+}
+
+.drum-set-right::after {
+  content: '↓';
+  display: block;
+  position: absolute;
+  font-size: 116px;
+  top: -153%;
+  left: -4px;
+  color: #5c6767;
+}
+
+.drum-set-left {
+  position: absolute;
+  width: 85px;
+  height: 12px;
+  background: #ddcd5f;
+  bottom: 63%;
+  left: 19%;
+  border-radius: 50%;
+  transform: rotate(22deg)
+}
+
+.drum-set-left::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 5px;
+  height: 105px;
+  top: 47%;
+  left: 29px;
+  background: #5c6767;
+  transform: rotate(11deg)
+}
+
+.drum-set-left::after {
+  content: '↓';
+  display: block;
+  position: absolute;
+  font-size: 159px;
+  bottom: -220px;
+  left: 1px;
+  transform: rotate(-22deg);
+  color: #5c6767;
 }
