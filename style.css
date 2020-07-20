@@ -3020,7 +3020,6 @@ body {
   width: 400px;
   height: 300px;
   margin: 0 auto;
-  margin-bottom: 150px;
 }
 
 .drum1 {
@@ -3253,4 +3252,52 @@ body {
   left: 1px;
   transform: rotate(-22deg);
   color: #5c6767;
+}
+
+/* taco */
+
+.taco-container {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.taco {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  background: #ba7213;
+  border-radius: 100px 100px 10px 10px;
+  top: 50%;
+  left: 25%;
+  z-index: -1;
+}
+
+.taco::after {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 100px;
+  background: #de921e;
+  border-radius: 100px 100px 10px 10px;
+  border-top: 7px solid #ba7213;
+  margin-top: 4px;
+  background-image: radial-gradient(circle, rgba(125, 52, 1, 0.13) 28%, rgba(125, 52, 1, 0) 30%);
+  background-size: 10px 13px;
+}
+
+.taco::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 23px;
+  left: 20px;
+  z-index: -1;
+  width: 127px;
+  height: 61px;
+  border-radius: 50%;
+  background: #c62a16;
+  box-shadow: 2px -20px 0 #c62a16, -20px 3px 0 #c62a16, -8px -12px 0px 7px #549f1c, 20px -17px 0px 7px #f6b243
 }
