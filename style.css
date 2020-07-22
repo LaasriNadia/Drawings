@@ -3261,7 +3261,7 @@ body {
   width: 400px;
   height: 300px;
   margin: 0 auto;
-  margin-bottom: 150px;
+
 }
 
 .taco {
@@ -3300,4 +3300,55 @@ body {
   border-radius: 50%;
   background: #c62a16;
   box-shadow: 2px -20px 0 #c62a16, -20px 3px 0 #c62a16, -8px -12px 0px 7px #549f1c, 20px -17px 0px 7px #f6b243
+}
+
+/* babyface */
+.baby-face-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 150px
+}
+
+.baby-face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: 25%;
+  background: #fff1e4;
+  border-top-left-radius: 110px 80px;
+  border-top-right-radius: 110px 80px;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+  border: 3px solid #7b5852
+}
+
+
+.baby-face::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 200px;
+  left: 0%;
+  top: 0px;
+  border-top-left-radius: 110px 80px;
+  border-top-right-radius: 110px 80px;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+  background-color: #fff1e4;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(ellipse at 58% 121%, transparent 38%, #7b5852 34%, #7b5852 54%, transparent 14%), radial-gradient(ellipse at 58% 121%, transparent 38%, #7b5852 34%, #7b5852 54%, transparent 14%),
+    radial-gradient(circle, #fff 50%, transparent 50%),
+    radial-gradient(circle, #191919 50%, transparent 50%),
+    radial-gradient(circle, #fff 50%, transparent 50%),
+    radial-gradient(circle, #fff 50%, transparent 50%),
+    radial-gradient(circle, #191919 50%, transparent 50%),
+    radial-gradient(circle, #fff 50%, transparent 50%),
+    radial-gradient(ellipse at 50% -20%, #7b5852 50%, transparent 50%),
+    radial-gradient(ellipse at 55% 0%, transparent 42%, #7b5852 6%, #7b5852 55%, transparent 56%), radial-gradient(ellipse at 0 -8%, transparent 36%, #191919 31%, #191919 39%, transparent 41%);
+  background-size: 43px 7px, 43px 7px, 10px 5px, 17px 37px, 53px 61px, 10px 5px, 17px 37px, 53px 61px, 23px 4px, 81px 8px, 49px 30px;
+  background-position: 26px 84px, 125px 84px, 51px 106px, 52px 98px, 26px 82px, 137px 106px, 130px 99px, 123px 82px, 87px 132px, 53px 154px, 96px 0px
 }
