@@ -3308,7 +3308,7 @@ body {
   width: 400px;
   height: 400px;
   margin: 0 auto;
-  margin-bottom: 150px
+
 }
 
 .baby-face {
@@ -3351,4 +3351,67 @@ body {
     radial-gradient(ellipse at 55% 0%, transparent 42%, #7b5852 6%, #7b5852 55%, transparent 56%), radial-gradient(ellipse at 0 -8%, transparent 36%, #191919 31%, #191919 39%, transparent 41%);
   background-size: 43px 7px, 43px 7px, 10px 5px, 17px 37px, 53px 61px, 10px 5px, 17px 37px, 53px 61px, 23px 4px, 81px 8px, 49px 30px;
   background-position: 26px 84px, 125px 84px, 51px 106px, 52px 98px, 26px 82px, 137px 106px, 130px 99px, 123px 82px, 87px 132px, 53px 154px, 96px 0px
+}
+
+/* girl-face */
+
+.girl-face-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.girl-face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  background: black;
+  border-top-left-radius: 110px 80px;
+  border-top-right-radius: 110px 80px;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+}
+
+.girl-face::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 155px;
+  height: 153px;
+  left: 11%;
+  top: 48px;
+  border-top-left-radius: 110px 80px;
+  border-top-right-radius: 110px 80px;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+  background-color: #eab991;
+  background-repeat: no-repeat;
+  background-image:
+    radial-gradient(circle, #0c070d 50%, transparent 50%),
+    radial-gradient(circle, #b3642a 50%, transparent 50%),
+    radial-gradient(ellipse at 50% 82%, #fcfcfe 67%, transparent 52%),
+    radial-gradient(circle, #0c070d 50%, transparent 50%),
+    radial-gradient(circle, #b3642a 50%, transparent 50%),
+    radial-gradient(ellipse at 50% 82%, #fcfcfe 67%, transparent 52%),
+    radial-gradient(ellipse at 50% -77%, #7b5852 48%, transparent 53%),
+    radial-gradient(ellipse at 51% -82%, transparent 52%, #0c070d 33%, #0c070d 50%, transparent 57%), radial-gradient(ellipse at 0 -8%, transparent 36%, #191919 31%, #191919 39%, transparent 41%);
+  background-size: 20px 16px, 32px 40px, 48px 29px, 20px 16px, 32px 40px, 48px 29px, 23px 4px, 81px 8px, 49px 30px;
+  background-position: 26px 57px, 20px 44px, 12px 48px, 105px 56px, 99px 44px, 91px 48px, 61px 91px, 32px 103px, 102px -4px
+}
+
+.girl-face::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 155px;
+  height: 100px;
+  left: 0%;
+  top: 0px;
+  background-image: radial-gradient(ellipse at 0 -5px, #000000 50%, transparent 50%), radial-gradient(ellipse at 100% -5px, #000000 50%, transparent 50%), radial-gradient(ellipse at 0 -5px, #88808087 50%, transparent 50%), radial-gradient(ellipse at 100% -5px, #88808087 50%, transparent 50%);
+  background-size: 118px 69px, 117px 97px, 118px 69px, 117px 97px;
+  background-position: 22px 47px, 109px 52px, 22px 51px, 109px 57px;
+  background-repeat: no-repeat;
 }
