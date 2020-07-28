@@ -3360,7 +3360,6 @@ body {
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  margin-bottom: 150px;
 }
 
 .girl-face {
@@ -3414,4 +3413,61 @@ body {
   background-size: 118px 69px, 117px 97px, 118px 69px, 117px 97px;
   background-position: 22px 47px, 109px 52px, 22px 51px, 109px 57px;
   background-repeat: no-repeat;
+}
+
+
+/* pokemon */
+
+.pokemon-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px
+}
+
+.pokemon {
+  position: absolute;
+  border: 1px solid #000;
+  width: 164px;
+  height: 157px;
+  top: 50%;
+  background: #fed723;
+  border-top-left-radius: 110px 80px;
+  border-top-right-radius: 110px 80px;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+}
+
+.pokemon::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 164px;
+  height: 157px;
+  border-top-left-radius: 110px 80px;
+  border-top-right-radius: 110px 80px;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(circle, #fdfdfd 50%, transparent 50%), radial-gradient(circle, #211916 50%, transparent 50%), radial-gradient(circle, #fdfdfd 50%, transparent 50%), radial-gradient(circle, #211916 50%, transparent 50%), radial-gradient(ellipse at 50% -77%, #20151b 48%, transparent 53%), radial-gradient(circle closest-side, #e84f25 71%, #301a04 80%, transparent 5%), radial-gradient(circle closest-side, #e84f25 71%, #301a04 80%, transparent 5%), radial-gradient(ellipse at 50% -77%, #e67273 48%, transparent 5%),
+    radial-gradient(ellipse at 51% -72%, #891215 60%, #2c1d0d 68%, transparent 5%);
+  background-size: 10px 17px, 22px 43px, 10px 17px, 22px 43px, 23px 4px, 51px 49px, 51px 49px, 86px 73px, 61px 54px;
+  background-position: 34px 52px, 25px 44px, 116px 52px, 113px 44px, 68px 91px, -9px 95px, 121px 95px, 36px 117px, 48px 102px;
+}
+
+.pokemon::after {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  margin-top: -112px;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(ellipse at 50% 120%, #fed723 60%, #2c1d0d 68%, transparent 5%), radial-gradient(ellipse at 50% 120%, #fed723 60%, #2c1d0d 68%, transparent 5%);
+  background-size: 28px 110px, 28px 110px;
+  background-position: 20px 32px, 105px 16px;
+  transform: skew(9deg, 8deg);
+  border-radius: 50% 50% 30px 30px;
 }
