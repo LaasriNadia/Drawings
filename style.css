@@ -3471,3 +3471,62 @@ body {
   transform: skew(9deg, 8deg);
   border-radius: 50% 50% 30px 30px;
 }
+
+/* perfume */
+
+.perfume-container {
+  position: relative;
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px
+}
+
+.perfume {
+  position: absolute;
+  width: 222px;
+  height: 328px;
+  top: 50%;
+  background: #ececec;
+  border-radius: 10px;
+  box-shadow: -2px 9px 8px #5d56564a, 0px 1px 3px #888;
+  border-width: 1px;
+  border-style: ridge;
+}
+
+.perfume::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 164px;
+  height: 157px;
+  top: -148px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, rgba(68, 68, 68, 1) 6%, rgba(245, 245, 245, 1) 7%, rgba(245, 245, 245, 1) 40%, rgba(13, 12, 12, 1) 51%, rgba(192, 192, 192, 1) 61%, rgba(192, 192, 192, 1) 93%, rgba(67, 67, 67, 1) 95%), linear-gradient(90deg, rgba(68, 68, 68, 1) 6%, rgba(245, 245, 245, 1) 7%, rgba(245, 245, 245, 1) 40%, rgba(13, 12, 12, 1) 51%, rgba(192, 192, 192, 1) 61%, rgba(192, 192, 192, 1) 93%, rgba(67, 67, 67, 1) 95%), radial-gradient(circle closest-side, #3f3f3f 10%, #a8a8a8 104%, transparent 3%), linear-gradient(90deg, rgba(68, 68, 68, 1) 6%, rgba(245, 245, 245, 1) 7%, rgba(245, 245, 245, 1) 40%, rgba(13, 12, 12, 1) 51%, rgba(192, 192, 192, 1) 61%, rgba(192, 192, 192, 1) 93%, rgba(67, 67, 67, 1) 95%), linear-gradient(90deg, rgba(208, 208, 208, 1) 6%, rgba(207, 207, 207, 1) 7%, rgba(40, 40, 40, 1) 27%, rgba(13, 12, 12, 1) 51%, rgba(40, 40, 40, 1) 70%, rgba(207, 207, 207, 1) 93%, rgba(208, 208, 208, 1) 95%), linear-gradient(#434343, #434343), linear-gradient(#939393, #939393), linear-gradient(#2f2f2f, #2f2f2f),
+    linear-gradient(#878787, #878787);
+  background-size: 92px 17px, 72px 20px, 10px 10px, 80px 52px, 92px 17px, 80px 3px, 72px 3px, 76px 6px, 82px 8px;
+  background-position: 64px 124px, 74px 101px, 106px 50px, 70px 48px, 63px 148px, 70px 46px, 74px 99px, 73px 121px, 70px 140px;
+
+}
+
+.perfume::after {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  width: 203px;
+  height: 292px;
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  background-color: #e1e1e1;
+  border: 1px solid #1919195e;
+  border-top-left-radius: 18px 151px;
+  border-top-right-radius: 18px 151px;
+  border-bottom-left-radius: 34px;
+  border-bottom-right-radius: 34px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#ebebeb, #ebebeb), linear-gradient(#2f2f2f, #2f2f2f);
+  background-size: 194px 18px, 190px 1px;
+  background-position: 3px 0px, 3px 18px;
+}
