@@ -3530,3 +3530,53 @@ body {
   background-size: 194px 18px, 190px 1px;
   background-position: 3px 0px, 3px 18px;
 }
+
+/* refraction */
+.refraction-container {
+  position: relative;
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+}
+
+.refraction {
+  position: absolute;
+  width: 145px;
+  height: 236px;
+  top: 50%;
+  background:linear-gradient(90deg, rgba(25,18,10,1) 0%, rgba(240,240,240,1) 5%, rgb(241 241 241) 7%, rgb(255 255 255) 78%, rgb(255 255 255) 78%, rgb(255 255 255) 90%, rgba(25,18,10,1) 100%);
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  clip-path:polygon(0 0, 100% 0, 92% 100%, 8% 100%);
+border-top: 1px solid #c4c4c4;
+}
+
+.refraction::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 145px;
+  height: 213px;
+  bottom: -15px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(90deg, rgb(230 230 230) 0%, rgb(232 232 235) 8%, rgb(254 254 254) 30%, rgb(248 248 248) 50%, rgb(222 222 222) 71%, rgb(210 210 210) 89%, rgb(0 0 0) 97%), radial-gradient(ellipse at 50% 67%, #dfe0e2 55%, #272622 64%, transparent 5%),linear-gradient(90deg, rgba(11,30,28,1) 12%, rgba(219,224,218,1) 28%, rgba(219,224,218,1) 35%, rgba(152,153,148,1) 40%, rgba(152,153,148,1) 44%, rgba(246,245,243,1) 50%, rgba(246,245,243,1) 54%, rgba(234,173,178,1) 71%, rgba(131,130,125,1) 75%, rgba(9,25,24,1) 88%);
+  background-size: 146px 17px,146px 31px,146px 2px;
+    background-position: 0px 173px ,0px 172px,0px 0px;
+
+}
+
+.refraction::after {
+  content: '';
+  display: block;
+  box-sizing: border-box;
+  width: 203px;
+  height: 292px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#f8ced0, #f8ced0),linear-gradient(180deg, rgb(242 242 242) 1%, rgba(245,104,95,1) 2%, rgba(245,104,95,1) 88%),linear-gradient(#f8ced0, #f8ced0), linear-gradient(0deg, rgb(242 242 242) 4%, rgba(245,104,95,1) 2%, rgba(245,104,95,1) 88%);
+  background-size: 1px 189px, 9px 192px, 1px 49px,9px 49px;
+    background-position: 92px 44px, 88px 41px, 72px -9px,68px -7px;
+  transform: rotate(15deg);
+}
