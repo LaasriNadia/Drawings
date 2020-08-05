@@ -3862,3 +3862,63 @@ body {
   background: #e2e2e2;
   transform: rotate(173deg);
 }
+
+/* sashimi */
+.sashimi-container{
+  position: relative;
+  width: 500px;
+  height: 350px;
+  margin: 0 auto;
+  margin-bottom: 300px;
+}
+
+.sashimi{
+  position: absolute;
+  width: 136px;
+  height: 68px;
+  background: #f16317;
+  transform: rotate(45deg);
+  overflow: hidden;
+  top: 61%;
+  left: -6%;
+  border-radius: 10px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: inset 3px 6px #fe9880;
+}
+
+.sashimi::before {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 55% 48%, transparent 54%, #fee7d7 58%, #fee7d700 60%, transparent -24%);
+  background-size: 58px 63px, 89px 55px, 64px 50px, 55px 45px, 60px 74px, 50px 70px;
+  background-position: -21px 9px ,39px 13px, 52px 26px, 57px 41px, -16px 0px , 0px 0px;
+  background-position: -21px 9px ,39px 13px, 52px 26px, 57px 41px, -16px 0px , 114px -15px;
+}
+
+.plate{
+  position: absolute;
+    width: 191px;
+    left: -36px;
+    bottom: -31px;
+    height: 107px;
+    border-radius: 50%;
+    z-index: -1;
+    background: #e6e7e9;
+    box-shadow: 16px 17px #615c5ca3;
+}
+.plate::before{
+  content: '';
+  display: block;
+  background: radial-gradient(circle, rgba(31,2,4,1) 72%, rgba(79,12,9,1) 86%, rgba(31,2,4,1) 99%);
+  position: absolute;
+  top: 21%;
+  left: 15%;
+  width: 138px;
+  height: 73px;
+  border-radius: 50%;
+
+}
