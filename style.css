@@ -3895,7 +3895,6 @@ body {
   background-repeat: no-repeat;
   background-image: radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 52% 77%, transparent 55%, #fee7d7 58%, #fee7d700 60%, transparent -5%),radial-gradient(ellipse at 55% 48%, transparent 54%, #fee7d7 58%, #fee7d700 60%, transparent -24%);
   background-size: 58px 63px, 89px 55px, 64px 50px, 55px 45px, 60px 74px, 50px 70px;
-  background-position: -21px 9px ,39px 13px, 52px 26px, 57px 41px, -16px 0px , 0px 0px;
   background-position: -21px 9px ,39px 13px, 52px 26px, 57px 41px, -16px 0px , 114px -15px;
 }
 
@@ -3922,3 +3921,43 @@ body {
   border-radius: 50%;
 
 }
+
+/* caravan */
+
+.caravan-container{
+  position: relative;
+  /* width: 500px; */
+  height: 450px;
+  margin: 0 auto;
+  margin-bottom: 300px;
+  background: #f3f2e0;
+}
+
+.caravan{
+position: absolute;
+/* overflow: hidden; */
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 398px;
+height: 235px;
+background: linear-gradient(0deg, rgba(255,153,154,1) 2%, rgba(248,185,185,1) 3%, rgba(249,187,186,1) 4%, rgba(249,187,186,1) 6%, rgba(255,204,203,1) 44%, rgba(253,182,183,1) 45%, rgba(253,182,183,1) 46%, rgba(254,254,253,1) 47%, rgba(254,254,253,1) 84%, rgba(250,250,250,1) 100%);
+border-radius: 45px;
+    border-top-right-radius: 105px 169px;
+    border: 1px solid;
+}
+
+.caravan::before{
+  content: '';
+  position: absolute;
+  width: 390px;
+  height: 500px;
+  top: -100px;
+  background-repeat: no-repeat;
+      background-image: radial-gradient(ellipse, #cbcbcb 57%, transparent),radial-gradient(ellipse, #cbcbcb 57%, transparent),radial-gradient(ellipse, #808080 80%, transparent),radial-gradient(ellipse, #808080 80%, transparent), linear-gradient(0deg, rgba(230,230,230,1) 5%, rgba(157,157,157,0) 5%, rgba(127,127,127,0) 94%, rgba(230,230,230,1) 96%),linear-gradient(135deg, rgba(127,127,127,1) 2%, rgba(153,153,153,1) 2%, rgba(153,153,153,1) 24%, rgba(127,127,127,1) 24%, rgba(127,127,127,1) 48%, rgba(153,153,153,1) 48%, rgba(153,153,153,1) 86%, rgba(127,127,127,1) 86%, rgba(127,127,127,1) 100%), linear-gradient(135deg, rgba(127,127,127,1) 2%, rgba(153,153,153,1) 2%, rgba(153,153,153,1) 11%, rgba(127,127,127,1) 11%, rgba(127,127,127,1) 56%, rgba(153,153,153,1) 56%, rgba(153,153,153,1) 90%, rgba(127,127,127,1) 86%, rgba(127,127,127,1) 100%),linear-gradient(#e6e6e6,#e6e6e6),linear-gradient(#e6e6e6,#e6e6e6),linear-gradient(0deg, rgba(173,173,173,1) 1%, rgba(157,157,157,0) 0%, rgba(127,127,127,0) 99%, rgba(173,173,173,1) 100%),linear-gradient(90deg, rgba(173,173,173,1) 2%, rgba(157,157,157,0) 2%, rgba(127,127,127,0) 97%, rgba(173,173,173,1) 98%),linear-gradient(0deg, rgba(207,207,207,1) 1%, rgba(230,230,230,1) 0%, #fafafa 3%, #fafafa 99%, rgba(230,230,230,1) 99%, rgba(207,207,207,1) 101%), linear-gradient(90deg, rgba(207,207,207,1) 1%, rgba(230,230,230,1) 0%, #fafafa 3%, #fafafa 99%, rgba(230,230,230,1) 99%, rgba(207,207,207,1) 101%),radial-gradient(circle closest-side, rgba(228,229,233,1) 139%, rgba(155,142,141,1) 142%),linear-gradient(0deg, #eda7aa 5%, rgba(157,157,157,0) 5%, rgba(127,127,127,0) 94%, #eda7aa 96%),linear-gradient(90deg, #eda7aa 5%, rgba(157,157,157,0) 5%, rgba(127,127,127,0) 94%, #eda7aa 96%), linear-gradient(#b6b7b2,#b6b7b2),linear-gradient(#b6b7b2,#b6b7b2),radial-gradient(ellipse, #c9cfcf 80%, transparent),radial-gradient(circle closest-side, #7e7e7e 78%, #656565 98%, transparent 5%),radial-gradient(circle closest-side, #7e7e7e 78%, #656565 98%, transparent 5%),radial-gradient(ellipse at 50% 82%, #4c4c4c 67%, transparent 52%),radial-gradient(ellipse at 50% 82%, #4c4c4c 67%, transparent 52%);
+    background-size: 9px 15px, 9px 15px , 9px 25px , 25px 9px ,72px 35px, 72px 54px,72px 54px,81px 61px,81px 61px,84px 142px,84px 142px,84px 174px,86px 174px, 24px 18px , 24px 25px,24px 25px, 6px 7px,6px 7px, 187px 9px,45px 54px,45px 54px,55px 29px,55px 29px;
+    background-position: 143px 197px,143px 283px, 215px 224px, 281px 233px , 36px 152px,36px 151px,282px 151px,31px 148px,277px 148px,276px 146px,276px 146px, 148px 146px , 147px 146px, 386px 265px , 31px 267px , 31px 267px , 124px 92px, 250px 92px,99px 83px,293px 306px, 63px 306px, 58px 305px , 288px 305px;
+}
+
+
+
