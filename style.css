@@ -19,6 +19,7 @@ body {
   align-items: center;
 }
 
+
 /* chocolate */
 #container {
   height: 138px;
@@ -895,7 +896,6 @@ body {
   width: 500px;
   height: 350px;
   margin: 0 auto;
-  margin-left: 100px;
   position: relative;
 }
 
@@ -2163,7 +2163,7 @@ body {
 .chair {
   position: absolute;
   left: 40px;
-  bottom: 138px;
+  bottom: 137px;
   width: 123px;
   height: 25px;
   margin: 0 auto;
@@ -2209,6 +2209,7 @@ body {
       rgba(75, 175, 242, 1) 25%,
       rgba(104, 181, 235, 1) 61%,
       rgba(151, 194, 223, 1) 80%);
+  margin-bottom: 39px;
 }
 
 .lighthouse-top-circle {
@@ -2312,6 +2313,7 @@ body {
   width: 500px;
   height: 300px;
   margin: 0 auto;
+  margin-bottom: 39px;
 }
 
 .wave {
@@ -2474,6 +2476,7 @@ body {
   width: 300px;
   height: 400px;
   margin: 0 auto;
+  margin-bottom: 39px;
 }
 
 .midnight-sky {
@@ -3306,7 +3309,7 @@ body {
 .baby-face-container {
   position: relative;
   width: 400px;
-  height: 400px;
+  height: 248px;
   margin: 0 auto;
 
 }
@@ -3477,10 +3480,8 @@ body {
 .perfume-container {
   position: relative;
   width: 200px;
-  height: 500px;
+  height: 255px;
   margin: 0 auto;
-  margin-top: 150px;
-  margin-bottom: 150px
 }
 
 .perfume {
@@ -3534,11 +3535,10 @@ body {
 /* refraction */
 .refraction-container {
   position: relative;
-  width: 200px;
-  height: 500px;
-  margin: 0 auto;
-  margin-top: 150px;
-  margin-bottom: 150px;
+    width: 200px;
+    height: 257px;
+    margin: 0 auto;
+    margin-top: 150px;
 
 }
 
@@ -3869,7 +3869,8 @@ body {
   width: 500px;
   height: 350px;
   margin: 0 auto;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
+
 }
 
 .sashimi{
@@ -3880,7 +3881,6 @@ body {
   transform: rotate(45deg);
   overflow: hidden;
   top: 61%;
-  left: -6%;
   border-radius: 10px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
@@ -3901,13 +3901,12 @@ body {
 .plate{
   position: absolute;
     width: 191px;
-    left: -36px;
-    bottom: -31px;
+    bottom: 0;
     height: 107px;
     border-radius: 50%;
     z-index: -1;
     background: #e6e7e9;
-    box-shadow: 16px 17px #615c5ca3;
+    box-shadow: 4px 1px #615c5ca3;
 }
 .plate::before{
   content: '';
@@ -3928,7 +3927,6 @@ body {
   position: relative;
   height: 450px;
   margin: 0 auto;
-  margin-bottom: 300px;
   background: #f3f2e0;
 }
 
