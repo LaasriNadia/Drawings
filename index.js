@@ -7,11 +7,9 @@ var snd = new Audio("scratch.mp3");
 catBtn.addEventListener('click', () => {
     catLegs.forEach(catLeg => {
         catLeg.classList.add("cat-leg-move");
-        // catLeg.classList.toggle('cat-leg-move')
     })
     scratches.forEach(scratch => {
         scratch.classList.add("scratch-move")
-        // scratch.classList.toggle("scratch-move")
     })
     snd.play()
 })
