@@ -3965,7 +3965,6 @@ body {
   display: flex;
   justify-content: space-evenly;
 
-  margin-bottom: 120px;
 }
 
 .cat-leg {
@@ -4022,4 +4021,35 @@ body {
 .cat-btn {
   cursor: pointer;
   color: rgb(57, 18, 161)
+}
+
+/* bird */
+.bird-container{
+  position: relative;
+  height: 250px;
+  background: #00bffe;
+  margin-bottom: 120px;
+}
+
+.bird{
+  position: absolute;
+  height: 93px;
+  width: 150px;
+ background: linear-gradient( #fcee21 41%, #fbb03b);
+  border-radius:  50%;
+  left: 50%;
+top: 50%;
+transform: rotate(22deg) translate(-50%,-50%) ;
+}
+.bird::before{
+  content: '';
+  position: absolute;
+  width: 340px;
+  height: 199px;
+  top: -45%;
+  left: -45%;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(ellipse at 50% 0%, #fcee21 55%, #fcee21 53%, #fbb638 59%, transparent -5%), radial-gradient(circle, #524326 50%, transparent 50%) , radial-gradient(ellipse at 50% 82%, #fcee21 67%, transparent 52%),linear-gradient(11deg,transparent 45%,#bf2d26 45%),linear-gradient(1deg,transparent 53%,#fcee21 45%),linear-gradient(1deg,#de4136 ,#de4136 ),linear-gradient(1deg,#de4136 ,#de4136 ),linear-gradient(1deg,#de4136 ,#de4136 ),linear-gradient(1deg,#de4136 ,#de4136 );
+  background-size: 180px 46px ,18px 17px , 88px 56px, 27px 8px, 121px 45px, 3px 20px, 3px 20px,8px 2px, 8px 2px;
+  background-position: 94px 65px, 78px 45px, 66px 21px , 44px 53px, 166px 45px, 167px 132px,185px 115px,180px 135px,161px 150px;
 }
