@@ -4024,23 +4024,24 @@ body {
 }
 
 /* bird */
-.bird-container{
+.bird-container {
   position: relative;
   height: 250px;
   background: #00bffe;
 }
 
-.bird{
+.bird {
   position: absolute;
   height: 93px;
   width: 150px;
- background: linear-gradient( #fcee21 41%, #fbb03b);
-  border-radius:  50%;
+  background: linear-gradient(#fcee21 41%, #fbb03b);
+  border-radius: 50%;
   left: 50%;
-top: 50%;
-transform: rotate(22deg) translate(-50%,-50%) ;
+  top: 50%;
+  transform: rotate(22deg) translate(-50%, -50%);
 }
-.bird::before{
+
+.bird::before {
   content: '';
   position: absolute;
   width: 340px;
@@ -4048,64 +4049,61 @@ transform: rotate(22deg) translate(-50%,-50%) ;
   top: -45%;
   left: -45%;
   background-repeat: no-repeat;
-  background-image: radial-gradient(ellipse at 50% 0%, #fcee21 55%, #fcee21 53%, #fbb638 59%, transparent -5%), radial-gradient(circle, #524326 50%, transparent 50%) , radial-gradient(ellipse at 50% 82%, #fcee21 67%, transparent 52%),linear-gradient(11deg,transparent 45%,#bf2d26 45%),linear-gradient(1deg,transparent 53%,#fcee21 45%),linear-gradient(1deg,#de4136 ,#de4136 ),linear-gradient(1deg,#de4136 ,#de4136 ),linear-gradient(1deg,#de4136 ,#de4136 ),linear-gradient(1deg,#de4136 ,#de4136 );
-  background-size: 180px 46px ,18px 17px , 88px 56px, 27px 8px, 121px 45px, 3px 20px, 3px 20px,8px 2px, 8px 2px;
-  background-position: 94px 65px, 78px 45px, 66px 21px , 44px 53px, 166px 45px, 167px 132px,185px 115px,180px 135px,161px 150px;
+  background-image: radial-gradient(ellipse at 50% 0%, #fcee21 55%, #fcee21 53%, #fbb638 59%, transparent -5%), radial-gradient(circle, #524326 50%, transparent 50%), radial-gradient(ellipse at 50% 82%, #fcee21 67%, transparent 52%), linear-gradient(11deg, transparent 45%, #bf2d26 45%), linear-gradient(1deg, transparent 53%, #fcee21 45%), linear-gradient(1deg, #de4136, #de4136), linear-gradient(1deg, #de4136, #de4136), linear-gradient(1deg, #de4136, #de4136), linear-gradient(1deg, #de4136, #de4136);
+  background-size: 180px 46px, 18px 17px, 88px 56px, 27px 8px, 121px 45px, 3px 20px, 3px 20px, 8px 2px, 8px 2px;
+  background-position: 94px 65px, 78px 45px, 66px 21px, 44px 53px, 166px 45px, 167px 132px, 185px 115px, 180px 135px, 161px 150px;
 }
 
 /* trex */
-.trex-container{
+.trex-container {
   position: relative;
   height: 250px;
   background: #f8f8f8;
   margin-bottom: 120px;
 }
 
-.trex{
+.trex {
   position: absolute;
   height: 40px;
   width: 90px;
- background: #000000;
+  background: #000000;
   left: 50%;
-top: 50%;
-transform:translate(-50%,-50%) ;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-.trex::before{
+
+.trex::before {
   content: '';
-    position: absolute;
-    width: 340px;
-    height: 242px;
-    top: -45%;
-    left: -145%;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(#fff ,#fff ),linear-gradient(#000 ,#000 ),linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ,linear-gradient(#000 ,#000 )
-    ;
-    background-size: 10px 10px , 70px 10px, 40px 10px, 70px 10px, 40px 10px,50px 10px, 80px 10px
-    , 70px 10px , 90px 20px , 80px 10px , 70px 10px , 50px 10px, 10px 50px , 10px 50px , 10px 60px
-    ,10px 40px , 10px 40px , 20px 10px, 10px 10px , 10px 10px , 10px 10px , 10px 10px, 10px 10px
-    ;
-    background-position: 146px 22px , 139px 9px , 131px 58px, 131px 68px, 121px 78px,111px 88px, 101px 98px
-    , 91px 108px , 71px 118px, 71px 138px , 71px 148px , 81px 158px , 62px 98px , 53px 88px , 44px 68px
-    ,121px 168px ,81px 168px  , 85px 168px , 90px 198px , 130px 198px , 113px 168px, 88px 178px, 171px 108px
-    ;
+  position: absolute;
+  width: 340px;
+  height: 242px;
+  top: -45%;
+  left: -145%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#fff, #fff), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000), linear-gradient(#000, #000);
+  background-size: 10px 10px, 70px 10px, 40px 10px, 70px 10px, 40px 10px, 50px 10px, 80px 10px, 70px 10px, 90px 20px, 80px 10px, 70px 10px, 50px 10px, 10px 50px, 10px 50px, 10px 60px, 10px 40px, 10px 40px, 20px 10px, 10px 10px, 10px 10px, 10px 10px, 10px 10px, 10px 10px;
+  background-position: 146px 22px, 139px 9px, 131px 58px, 131px 68px, 121px 78px, 111px 88px, 101px 98px, 91px 108px, 71px 118px, 71px 138px, 71px 148px, 81px 158px, 62px 98px, 53px 88px, 44px 68px, 121px 168px, 81px 168px, 85px 168px, 90px 198px, 130px 198px, 113px 168px, 88px 178px, 171px 108px;
+}
+
+
+/* egg */
+
+.egg-container {
+  position: relative;
+  height: 250px;
+  background: #f8f8f8;
+  margin-bottom: 120px;
+}
+
+.egg {
+  position: absolute;
+  height: 165px;
+  width: 121px;
+  background-color: #a44200;
+  background-image: linear-gradient(315deg, #a44200 0%, #f2c17d 74%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+  box-shadow: 0px 20px 12px #cdcdcd;
 }
