@@ -4107,3 +4107,57 @@ body {
   border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
   box-shadow: 0px 20px 12px #cdcdcd;
 }
+
+/* <!-- lamp --> */
+.lamp-container {
+  position: relative;
+    height: 250px;
+    margin-bottom: 120px;
+}
+
+.lamp {
+  position: absolute;
+    height: 265px;
+    width: 240px;
+    background-color: transparent;
+    border: 5px solid #5f1b1b;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 45% 45% 30% 30% / 100% 100% 30% 30%
+}
+
+.lamp::before{
+  content: '';
+    position: absolute;
+    width: 440px;
+    height: 375px;
+    top: -23%;
+    top: -9%;
+    left: -24%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(88,96,98,1) 1%, rgb(255 165 0 / 40%) 1%, #ffa50078 50%, rgb(255 165 0 / 40%) 99%, rgba(88,96,98,1) 99%) ,linear-gradient(#5f1b1b,#5f1b1b),linear-gradient(#5f1b1b,#5f1b1b),linear-gradient(#5f1b1b,#5f1b1b),linear-gradient(#5f1b1b,#5f1b1b),radial-gradient(ellipse, #432723 80%, transparent), linear-gradient(90deg, rgba(32,32,32,1) 3%, rgba(129,14,11,1) 3%, rgba(128,14,11,1) 48%, rgba(129,14,11,1) 97%, rgba(32,32,32,1) 97%);
+    background-size: 93px 163px , 94px 18px, 107px 42px,140px 19px , 161px 6px , 93px 7px, 91px 43px;
+    background-position: 134px 70px, 133px 233px,127px 250px , 112px 293px , 102px 311px, 134px 64px, 135px 22px;
+
+}
+
+.lamp::after{
+  content: '';
+  position: absolute;
+  width: 154px;
+  height: 105px;
+  top: -41%;
+  z-index: -99;
+  left: 19%;
+  background: transparent;
+  border: 1px solid #363636;
+  border-radius: 50% 50% 0 0 / 50% 50% 0 0;
+  border-radius: 70px 70px 23px 23px;
+}
+
+.lamp .cake-candle{
+  height: 25px;
+  top: 186px;
+  left: 51%;
+}
