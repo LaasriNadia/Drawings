@@ -4193,3 +4193,86 @@ body {
   background-size: 50px 14px, 50px 50px, 50px 47px, 63px 35px, 30px 35px, 120px 5px, 31px 31px, 32px 30px, 75px 55px, 14px 4px, 165px 6px, 72px 38px, 72px 23px, 150px 10px, 50px 10px, 18px 36px, 20px 22px, 23px 37px, 20px 29px;
   background-position: 280px 135px, 55px 135px, 281px 135px, 228px 66px, 203px 66px, 93px 66px, 119px 68px, 125px 70px, 133px 100px, 190px 112px, 157px 128px, 44px 129px, 271px 143px, 125px 155px, 55px 129px, 38px 129px, 265px 136px, 104px 128px, 329px 136px;
 }
+
+/* ring */
+.ring-container {
+  position: relative;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(40deg);
+  width: 200px;
+  height: 200px;
+  border-radius: 79px;
+  border-bottom-right-radius: 25px;
+  background: #a81127;
+  overflow: hidden;
+  box-shadow: 20px -3px 0px 0px #b5b5b5;
+}
+
+.ring::before {
+  content: '';
+  position: absolute;
+  width: 165px;
+  height: 155px;
+  top: 11px;
+  left: -1px;
+  border-radius: 28px;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(circle closest-side, #ffffff 80%, #e2e7eb, transparent 5%), radial-gradient(ellipse at 58% 121%, transparent 45%, #f4b74a 47%, #f4b74a 55%, transparent 57%), radial-gradient(ellipse, #747474 32%, transparent), radial-gradient(ellipse at 137% 39%, #a8a8a8 66%, transparent 63%), linear-gradient(#ededed, #ededed), linear-gradient(#470410, #470410), linear-gradient(#d1848f, #d1848f);
+  background-size: 10px 10px, 65px 42px, 64px 8px, 24px 149px, 150px 139px, 150px 148px, 152px 151px;
+  background-position: 70px 36px, 38px 28px, 43px 65px, 126px 0px, 0px 0px, 7px 0px, 6px 0px;
+}
+
+.ring::after {
+  content: '';
+  position: absolute;
+  width: 168px;
+  height: 44px;
+  bottom: -11px;
+  background: radial-gradient(ellipse at 50% 82%, #af2438 67%, transparent 52%);
+}
+
+.ring-top {
+  position: absolute;
+  top: -5%;
+  left: 49%;
+  transform: skewY(46deg);
+  transform: rotate3d(1, 1, 1, 49deg);
+  width: 200px;
+  height: 200px;
+  border-radius: 39px;
+  border-top-right-radius: 25px;
+  background: #a81127;
+}
+
+.ring-top::before {
+  content: '';
+  position: absolute;
+  width: 165px;
+  height: 188px;
+  top: 11px;
+  margin-top: 39px;
+  border-radius: 28px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(132deg, rgb(168 168 168) 1%, rgb(168 168 168) 48%, rgba(186, 186, 186, 1) 41%, rgba(186, 186, 186, 1) 99%), linear-gradient(#e6bfc5, #e6bfc5);
+  background-size: 151px 137px, 155px 140px;
+  background-position: 4px 3px, 4px 0px;
+  border-bottom-left-radius: 96px;
+  border-bottom-right-radius: 0;
+}
+
+.ring-top::after {
+  content: '';
+  position: absolute;
+  width: 168px;
+  height: 44px;
+  top: 2px;
+  left: 26px;
+  background: radial-gradient(ellipse at 48% 22%, #af2438 67%, transparent 52%);
+}
