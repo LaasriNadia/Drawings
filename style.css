@@ -4199,6 +4199,7 @@ body {
   position: relative;
   height: 450px;
   margin: 0 auto;
+  margin-top: 100px;
 }
 
 .ring {
