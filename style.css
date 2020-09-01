@@ -4296,35 +4296,90 @@ body {
   border-radius: 50%;
   box-shadow: inset 1px 20px 20px 0px #adafa4, inset 0px 20px 20px 20px #e0e4dd, 3px 20px 16px #cec4b9;
   border: 4px solid transparent;
-  background: linear-gradient(to right, #f4f9f6, #f4f9f6), linear-gradient(15deg, #595c5b , #b1b3b2);
+  background: linear-gradient(to right, #f4f9f6, #f4f9f6), linear-gradient(15deg, #595c5b, #b1b3b2);
   background-clip: padding-box, border-box;
   background-origin: padding-box, border-box;
 }
 
 .loupe::before {
   content: '';
-    position: absolute;
-    width: 450px;
-    height: 155px;
-    top: 11px;
-    left: -1px;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(#ffffff9c,#ffffff9c) , radial-gradient(ellipse at -152% 27%, transparent 48%, #0b0b07 52%, #0b0b07 50%, transparent 57%),linear-gradient(0deg, #d8d8d6 1%, #d8d8d6 36%, rgba(38,34,31,1) 49%, rgba(38,34,31,1) 42%, #d8d8d6 63%, #d8d8d6 99%),linear-gradient(0deg, #d8d8d6 1%, #d8d8d6 36%, rgba(38,34,31,1) 49%, rgba(38,34,31,1) 42%, #d8d8d6 63%, #d8d8d6 99%),linear-gradient(0deg, #d8d8d6 1%, #d8d8d6 36%, rgba(38,34,31,1) 49%, rgba(38,34,31,1) 42%, #d8d8d6 63%, #d8d8d6 99%);
-    background-size: 2px 42px , 27px 113px , 18px 35px , 10px 27px , 15px 35px;
-    background-position: 12px 33px, 194px 34px, 200px 53px , 216px 57px , 225px 53px;
-    transform: rotate(-10deg);
+  position: absolute;
+  width: 450px;
+  height: 155px;
+  top: 11px;
+  left: -1px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#ffffff9c, #ffffff9c), radial-gradient(ellipse at -152% 27%, transparent 48%, #0b0b07 52%, #0b0b07 50%, transparent 57%), linear-gradient(0deg, #d8d8d6 1%, #d8d8d6 36%, rgba(38, 34, 31, 1) 49%, rgba(38, 34, 31, 1) 42%, #d8d8d6 63%, #d8d8d6 99%), linear-gradient(0deg, #d8d8d6 1%, #d8d8d6 36%, rgba(38, 34, 31, 1) 49%, rgba(38, 34, 31, 1) 42%, #d8d8d6 63%, #d8d8d6 99%), linear-gradient(0deg, #d8d8d6 1%, #d8d8d6 36%, rgba(38, 34, 31, 1) 49%, rgba(38, 34, 31, 1) 42%, #d8d8d6 63%, #d8d8d6 99%);
+  background-size: 2px 42px, 27px 113px, 18px 35px, 10px 27px, 15px 35px;
+  background-position: 12px 33px, 194px 34px, 200px 53px, 216px 57px, 225px 53px;
+  transform: rotate(-10deg);
 }
 
 .loupe::after {
   content: '';
-    position: absolute;
-    box-sizing: border-box;
-    width: 186px;
-    height: 42px;
-    background: #20201b;
-    border-radius: 3px;
-    box-shadow: inset -1px 8px 1px #20201b, inset -1px 11px 1px #8e8e8e, -10px 13px 16px #978e7b;
-    bottom: 116px;
-    transform: rotate(-10deg);
-    right: -221px;
+  position: absolute;
+  box-sizing: border-box;
+  width: 186px;
+  height: 42px;
+  background: #20201b;
+  border-radius: 3px;
+  box-shadow: inset -1px 8px 1px #20201b, inset -1px 11px 1px #8e8e8e, -10px 13px 16px #978e7b;
+  bottom: 116px;
+  transform: rotate(-10deg);
+  right: -221px;
+}
+
+/* light */
+.lightLamp-container {
+  position: relative;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.lightLamp {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 111px;
+  height: 160px;
+  background: #e98e229e;
+  box-shadow: inset -7px 1px 20px 0px #a45b0f, inset -14px 2px 0px 0px #a56629, 5px 0px 9px 0px #97918b;
+  border-radius: 50%;
+}
+
+
+.lightLamp::before {
+  content: '';
+  position: absolute;
+  width: 138px;
+  height: 37px;
+  top: 58px;
+  left: -80px;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#c5803a, #f2bf82), linear-gradient(#d4d5d5, #d4d5d5);
+  background-size: 108px 51px, 45px 26px;
+  background-position: 30px 0px, -4px 5px;
+  border-radius: 92px;
+  filter: drop-shadow(4px 7px 11px #b59069);
+}
+
+
+.lightLamp::after {
+  content: '';
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  left: -257px;
+  top: 47px;
+  background-image: radial-gradient(ellipse at 50% 0%, #eaeef9 55%, #e1e1e1bd 53%, #cacad4 59%, transparent -5%), radial-gradient(ellipse at 45% 61%, #eeeeee 55%, #ffffff6b 57%, #7a7b8000 58%, transparent -5%), linear-gradient(90deg, rgba(21, 21, 23, 1) 40%, rgba(21, 21, 23, 1) 4%, rgba(21, 21, 23, 1) 60%, rgba(55, 51, 50, 1) 85%, rgba(55, 51, 50, 1) 100%), linear-gradient(90deg, rgba(21, 21, 23, 1) 40%, rgba(21, 21, 23, 1) 4%, rgba(21, 21, 23, 1) 50%, rgba(55, 51, 50, 1) 76%, rgba(55, 51, 50, 1) 100%);
+  background-size: 90px 46px, 243px 69px, 64px 46px, 228px 213px;
+  background-repeat: no-repeat;
+  transform: rotate(39deg);
+  background-position: 59px 182px, -2px 171px, 75px 0px, 0px 45px;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  border-top-left-radius: 178px;
+  border-top-right-radius: 178px;
+  border-bottom-right-radius: 120px 59px;
+  border-bottom-left-radius: 120px 69px;
 }
