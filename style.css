@@ -4383,3 +4383,61 @@ body {
   border-bottom-right-radius: 120px 59px;
   border-bottom-left-radius: 120px 69px;
 }
+
+/* microphone */
+
+.microphone-container {
+  position: relative;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.microphone {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 111px;
+  height: 160px;
+  background: #e4e4e4;
+  border-radius: 46px;
+  box-shadow: inset -20px 0px 20px 6px #363636cc;
+  transform: rotate(10deg);
+  background-image: linear-gradient(#1a1a1a 45%,transparent 12%);
+    background-repeat: space;
+    background-size: 51px 18px;
+}
+
+
+ .microphone::before {
+  content: '';
+  position: absolute;
+  width: 34px;
+  height: 29px;
+  top: 158px;
+  left: 37px;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(circle closest-side,#dacdcd 55%, transparent), linear-gradient(90deg, #1f2120 44%, #000000);
+  background-size: 10px 10px, 40px 33px;
+  background-position: 16px 3px, 0px -4px;
+  border-bottom-left-radius: 13px 25px;
+  border-bottom-right-radius: 13px 25px;
+}
+
+
+.microphone::after {
+  content: '';
+    position: absolute;
+    z-index: -9;
+    width: 167px;
+    height: 214px;
+    left: -6px;
+    top: 181px;
+    transform: rotate(-10deg);
+    background-image: linear-gradient(180deg, rgba(189,190,195,1) 50%, rgba(164,165,170,1) 11%), linear-gradient(90deg, rgba(76,78,79,1) 1%, rgba(59,59,60,1) 6%, rgba(238,238,238,1) 46%, rgba(134,133,134,1) 85%, rgba(41,38,38,1) 95%), radial-gradient(ellipse closest-side, rgb(255 255 255) 32%, rgba(164,165,170,1) 89%, transparent 61%),linear-gradient(90deg, rgba(76,78,79,1) 1%, rgba(59,59,60,1) 6%, rgba(238,238,238,1) 46%, rgba(134,133,134,1) 85%, rgba(41,38,38,1) 95%);
+    background-size: 41px 5px, 20px 191px , 188px 25px, 163px 40px;
+    background-repeat: no-repeat;
+    background-position: 60px 168px, 70px -20px , -14px 162px , 1px 173px;
+    border-bottom-left-radius: 130px 33px;
+    border-bottom-right-radius: 130px 33px;
+}
