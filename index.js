@@ -1,3 +1,5 @@
+//cat 
+
 const catBtn = document.querySelector('.cat-btn')
 const catLegs = document.querySelectorAll('.cat-leg')
 const scratches = document.querySelectorAll('.scratch')

@@ -4403,13 +4403,13 @@ body {
   border-radius: 46px;
   box-shadow: inset -20px 0px 20px 6px #363636cc;
   transform: rotate(10deg);
-  background-image: linear-gradient(#1a1a1a 45%,transparent 12%);
-    background-repeat: space;
-    background-size: 51px 18px;
+  background-image: linear-gradient(#1a1a1a 45%, transparent 12%);
+  background-repeat: space;
+  background-size: 51px 18px;
 }
 
 
- .microphone::before {
+.microphone::before {
   content: '';
   position: absolute;
   width: 34px;
@@ -4417,7 +4417,7 @@ body {
   top: 158px;
   left: 37px;
   background-repeat: no-repeat;
-  background-image: radial-gradient(circle closest-side,#dacdcd 55%, transparent), linear-gradient(90deg, #1f2120 44%, #000000);
+  background-image: radial-gradient(circle closest-side, #dacdcd 55%, transparent), linear-gradient(90deg, #1f2120 44%, #000000);
   background-size: 10px 10px, 40px 33px;
   background-position: 16px 3px, 0px -4px;
   border-bottom-left-radius: 13px 25px;
@@ -4427,17 +4427,101 @@ body {
 
 .microphone::after {
   content: '';
+  position: absolute;
+  z-index: -9;
+  width: 167px;
+  height: 214px;
+  left: -6px;
+  top: 181px;
+  transform: rotate(-10deg);
+  background-image: linear-gradient(180deg, rgba(189, 190, 195, 1) 50%, rgba(164, 165, 170, 1) 11%), linear-gradient(90deg, rgba(76, 78, 79, 1) 1%, rgba(59, 59, 60, 1) 6%, rgba(238, 238, 238, 1) 46%, rgba(134, 133, 134, 1) 85%, rgba(41, 38, 38, 1) 95%), radial-gradient(ellipse closest-side, rgb(255 255 255) 32%, rgba(164, 165, 170, 1) 89%, transparent 61%), linear-gradient(90deg, rgba(76, 78, 79, 1) 1%, rgba(59, 59, 60, 1) 6%, rgba(238, 238, 238, 1) 46%, rgba(134, 133, 134, 1) 85%, rgba(41, 38, 38, 1) 95%);
+  background-size: 41px 5px, 20px 191px, 188px 25px, 163px 40px;
+  background-repeat: no-repeat;
+  background-position: 60px 168px, 70px -20px, -14px 162px, 1px 173px;
+  border-bottom-left-radius: 130px 33px;
+  border-bottom-right-radius: 130px 33px;
+}
+
+/* landscape */
+.landscape-container {
+  position: relative;
+  height: 560px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: radial-gradient(circle, rgba(28,81,151,1) 37%, rgba(27,28,108,1) 73%, rgba(27,20,100,1) 91%);
+
+}
+
+.landscape-container::after {
+  content: " ";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  top : 0;
+  background: transparent;
+  box-shadow: 354px 154px #5be1ff, 410px 154px #5be1ff, 489px 130px #5be1ff, 354px 220px #5be1ff, 497px 193px #5be1ff, 378px 262px #5be1ff, 516px 154px #5be1ff, 495px 80px #5be1ff, 478px 338px #5be1ff, 477px 393px #5be1ff, 464px 454px #5be1ff, 495px 434px #5be1ff, 495px 496px #5be1ff, 495px 334px #5be1ff, 564px 434px #5be1ff, 579px 420px #5be1ff, 606px 434px #5be1ff, 934px 434px #5be1ff, 895px 434px #5be1ff, 995px 450px #5be1ff, 911px 451px #5be1ff, 895px 480px #5be1ff, 995px 234px #5be1ff, 1021px 226px #5be1ff, 1095px 195px #5be1ff, 1057px 198px #5be1ff, 995px 112px #5be1ff, 1025px 103px #5be1ff, 995px 88px #5be1ff, 995px 174px #5be1ff, 995px 147px #5be1ff, 872px 112px #5be1ff, 795px 112px #5be1ff, 695px 112px #5be1ff, 695px 64px #5be1ff, 795px 29px #5be1ff, 715px 137px #5be1ff, 682px 155px #5be1ff, 1163px 137px #5be1ff, 1199px 104px #5be1ff, 1245px 109px #5be1ff, 163px 137px #5be1ff, 163px 537px #5be1ff, 126px 458px #5be1ff, 336px 538px #5be1ff, 1128px 540px #5be1ff,1169px 547px #5be1ff,1076px 526px #5be1ff,1175px 411px #5be1ff,1195px 345px #5be1ff
+}
+
+.landscape-sun {
+  position: absolute;
+  background-color: #F8FCFB;
+  width: 240px;
+  height: 240px;
+  right: 600px;
+  top: 180px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 20px 10px #7cc0e3, 0px 0px 20px 40px #7bbfe4c4, 0px 0px 18px 100px #50b1de4a, 0px 0px 20px 160px #2a7dbb7d;
+
+}
+
+.landscape-sun::after{
+  content: '';
     position: absolute;
     z-index: -9;
     width: 167px;
-    height: 214px;
-    left: -6px;
-    top: 181px;
-    transform: rotate(-10deg);
-    background-image: linear-gradient(180deg, rgba(189,190,195,1) 50%, rgba(164,165,170,1) 11%), linear-gradient(90deg, rgba(76,78,79,1) 1%, rgba(59,59,60,1) 6%, rgba(238,238,238,1) 46%, rgba(134,133,134,1) 85%, rgba(41,38,38,1) 95%), radial-gradient(ellipse closest-side, rgb(255 255 255) 32%, rgba(164,165,170,1) 89%, transparent 61%),linear-gradient(90deg, rgba(76,78,79,1) 1%, rgba(59,59,60,1) 6%, rgba(238,238,238,1) 46%, rgba(134,133,134,1) 85%, rgba(41,38,38,1) 95%);
-    background-size: 41px 5px, 20px 191px , 188px 25px, 163px 40px;
+    height: 179px;
+    left: 36px;
+    top: 48px;
+    z-index: 999;
+    background-image: radial-gradient(circle closest-side, #000 78%, #000 98%, transparent 5%),radial-gradient(circle closest-side, #000 78%, #000 98%, transparent 5%),radial-gradient(ellipse,black 50%,transparent 50%),radial-gradient(ellipse,black 50%,transparent 50%),linear-gradient(black,black),linear-gradient(black,black);;
     background-repeat: no-repeat;
-    background-position: 60px 168px, 70px -20px , -14px 162px , 1px 173px;
-    border-bottom-left-radius: 130px 33px;
-    border-bottom-right-radius: 130px 33px;
+    background-size: 20px 20px , 20px 20px , 39px 65px, 39px 65px , 20px 20px , 20px 20px;
+    background-position: 67px 78px , 31px 78px , 22px 82px, 59px 82px, 68px 130px , 32px 133px
+}
+
+.landscape-branch {
+  position: absolute;
+  width: 950px;
+  height: 49px;
+  top: 58%;
+  border-bottom: 32px solid #000000;
+  border-bottom-right-radius: 100% 100%;
+  transform-origin: 0% 100%;
+  z-index: 99;
+}
+
+
+.landscape-branch::before {
+  content: '';
+    width: 133px;
+    height: 16px;
+    position: absolute;
+    background: #000;
+    border-bottom-right-radius: 100% 100%;
+    left: 96px;
+    top: 46px;
+    transform: rotate(-60deg);
+    transform-origin: 0% 100%;
+}
+.landscape-branch::after {
+  content: '';
+    width: 133px;
+    height: 16px;
+    position: absolute;
+    background: #000;
+    border-bottom-right-radius: 100% 100%;
+    left: 196px;
+    top: 46px;
+    transform: rotate(60deg);
+    transform-origin: 0% 100%;
 }
