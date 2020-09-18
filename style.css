@@ -4525,3 +4525,91 @@ body {
     transform: rotate(60deg);
     transform-origin: 0% 100%;
 }
+
+/* headphones */
+
+.headphones-container {
+  position: relative;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.headphone {
+  position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 290px;
+    height: 278px;
+    border-top: 23px solid #020202;
+    border-right: 12px solid #c7c7c6;
+    border-left: 13px solid #c7c7c6;
+    border-radius: 50%;
+    border-bottom-right-radius: 76px 148px;
+    border-bottom-left-radius: 76px 148px;
+    background: radial-gradient(ellipse at 45% 237%, transparent 54%, #3d3d3fb8 51%, #3d3d3f 72%, transparent 32%);
+    background-repeat: no-repeat;
+    background-size: 178px 30px;
+    background-position:63px -8px;
+    filter: drop-shadow(52px 1px 8px #8b8f8f5c);
+}
+
+
+.headphone::after{
+  border-bottom-right-radius: 44px;
+  content: '';
+  position: absolute;
+
+  width: 12px;
+  height: 118px;
+  top: 166px;
+  left: 272px;
+  background: white;
+  transform: rotate(15deg);
+  background: linear-gradient(180deg, rgb(199 199 198) 20%, rgba(219,219,221,1) 29%, rgba(240,240,242,1) 55%, rgba(204,204,206,1) 75%, rgba(110,109,113,1) 91%);
+}
+.headphone::before{
+  border-bottom-left-radius: 44px;
+  content: '';
+  position: absolute;
+
+  width: 12px;
+  height: 118px;
+  top: 166px;
+  left: 5px;
+  background: white;
+  transform: rotate(-15deg);
+  background: linear-gradient(180deg, rgb(199 199 198) 20%, rgba(219,219,221,1) 29%, rgba(240,240,242,1) 55%, rgba(204,204,206,1) 75%, rgba(110,109,113,1) 91%);
+  z-index: 99;
+}
+
+
+.headphone-right{
+  position: absolute;
+    top: 58%;
+    left: 79%;
+    width: 83px;
+    height: 123px;
+    background: linear-gradient( 93deg,#4e4e50 5%, black 17% );
+    border-top-right-radius: 69px;
+    border-bottom-right-radius: 69px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: rotate(10deg);
+  }
+.headphone-left{
+  position: absolute;
+  top: 58%;
+  right: 79%;
+  width: 83px;
+  height: 123px;
+  background: linear-gradient( 272deg, #4d4d4e 8%, black 17% );
+  border-top-left-radius: 69px;
+  border-bottom-left-radius: 69px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: rotate(-10deg);
+  }
+
+
+
