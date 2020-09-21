@@ -4448,7 +4448,7 @@ body {
   height: 560px;
   margin: 0 auto;
   margin-top: 100px;
-  background: radial-gradient(circle, rgba(28,81,151,1) 37%, rgba(27,28,108,1) 73%, rgba(27,20,100,1) 91%);
+  background: radial-gradient(circle, rgba(28, 81, 151, 1) 37%, rgba(27, 28, 108, 1) 73%, rgba(27, 20, 100, 1) 91%);
 
 }
 
@@ -4457,9 +4457,9 @@ body {
   position: absolute;
   width: 2px;
   height: 2px;
-  top : 0;
+  top: 0;
   background: transparent;
-  box-shadow: 354px 154px #5be1ff, 410px 154px #5be1ff, 489px 130px #5be1ff, 354px 220px #5be1ff, 497px 193px #5be1ff, 378px 262px #5be1ff, 516px 154px #5be1ff, 495px 80px #5be1ff, 478px 338px #5be1ff, 477px 393px #5be1ff, 464px 454px #5be1ff, 495px 434px #5be1ff, 495px 496px #5be1ff, 495px 334px #5be1ff, 564px 434px #5be1ff, 579px 420px #5be1ff, 606px 434px #5be1ff, 934px 434px #5be1ff, 895px 434px #5be1ff, 995px 450px #5be1ff, 911px 451px #5be1ff, 895px 480px #5be1ff, 995px 234px #5be1ff, 1021px 226px #5be1ff, 1095px 195px #5be1ff, 1057px 198px #5be1ff, 995px 112px #5be1ff, 1025px 103px #5be1ff, 995px 88px #5be1ff, 995px 174px #5be1ff, 995px 147px #5be1ff, 872px 112px #5be1ff, 795px 112px #5be1ff, 695px 112px #5be1ff, 695px 64px #5be1ff, 795px 29px #5be1ff, 715px 137px #5be1ff, 682px 155px #5be1ff, 1163px 137px #5be1ff, 1199px 104px #5be1ff, 1245px 109px #5be1ff, 163px 137px #5be1ff, 163px 537px #5be1ff, 126px 458px #5be1ff, 336px 538px #5be1ff, 1128px 540px #5be1ff,1169px 547px #5be1ff,1076px 526px #5be1ff,1175px 411px #5be1ff,1195px 345px #5be1ff
+  box-shadow: 354px 154px #5be1ff, 410px 154px #5be1ff, 489px 130px #5be1ff, 354px 220px #5be1ff, 497px 193px #5be1ff, 378px 262px #5be1ff, 516px 154px #5be1ff, 495px 80px #5be1ff, 478px 338px #5be1ff, 477px 393px #5be1ff, 464px 454px #5be1ff, 495px 434px #5be1ff, 495px 496px #5be1ff, 495px 334px #5be1ff, 564px 434px #5be1ff, 579px 420px #5be1ff, 606px 434px #5be1ff, 934px 434px #5be1ff, 895px 434px #5be1ff, 995px 450px #5be1ff, 911px 451px #5be1ff, 895px 480px #5be1ff, 995px 234px #5be1ff, 1021px 226px #5be1ff, 1095px 195px #5be1ff, 1057px 198px #5be1ff, 995px 112px #5be1ff, 1025px 103px #5be1ff, 995px 88px #5be1ff, 995px 174px #5be1ff, 995px 147px #5be1ff, 872px 112px #5be1ff, 795px 112px #5be1ff, 695px 112px #5be1ff, 695px 64px #5be1ff, 795px 29px #5be1ff, 715px 137px #5be1ff, 682px 155px #5be1ff, 1163px 137px #5be1ff, 1199px 104px #5be1ff, 1245px 109px #5be1ff, 163px 137px #5be1ff, 163px 537px #5be1ff, 126px 458px #5be1ff, 336px 538px #5be1ff, 1128px 540px #5be1ff, 1169px 547px #5be1ff, 1076px 526px #5be1ff, 1175px 411px #5be1ff, 1195px 345px #5be1ff
 }
 
 .landscape-sun {
@@ -4474,19 +4474,20 @@ body {
 
 }
 
-.landscape-sun::after{
+.landscape-sun::after {
   content: '';
-    position: absolute;
-    z-index: -9;
-    width: 167px;
-    height: 179px;
-    left: 36px;
-    top: 48px;
-    z-index: 999;
-    background-image: radial-gradient(circle closest-side, #000 78%, #000 98%, transparent 5%),radial-gradient(circle closest-side, #000 78%, #000 98%, transparent 5%),radial-gradient(ellipse,black 50%,transparent 50%),radial-gradient(ellipse,black 50%,transparent 50%),linear-gradient(black,black),linear-gradient(black,black);;
-    background-repeat: no-repeat;
-    background-size: 20px 20px , 20px 20px , 39px 65px, 39px 65px , 20px 20px , 20px 20px;
-    background-position: 67px 78px , 31px 78px , 22px 82px, 59px 82px, 68px 130px , 32px 133px
+  position: absolute;
+  z-index: -9;
+  width: 167px;
+  height: 179px;
+  left: 36px;
+  top: 48px;
+  z-index: 999;
+  background-image: radial-gradient(circle closest-side, #000 78%, #000 98%, transparent 5%), radial-gradient(circle closest-side, #000 78%, #000 98%, transparent 5%), radial-gradient(ellipse, black 50%, transparent 50%), radial-gradient(ellipse, black 50%, transparent 50%), linear-gradient(black, black), linear-gradient(black, black);
+  ;
+  background-repeat: no-repeat;
+  background-size: 20px 20px, 20px 20px, 39px 65px, 39px 65px, 20px 20px, 20px 20px;
+  background-position: 67px 78px, 31px 78px, 22px 82px, 59px 82px, 68px 130px, 32px 133px
 }
 
 .landscape-branch {
@@ -4503,27 +4504,28 @@ body {
 
 .landscape-branch::before {
   content: '';
-    width: 133px;
-    height: 16px;
-    position: absolute;
-    background: #000;
-    border-bottom-right-radius: 100% 100%;
-    left: 96px;
-    top: 46px;
-    transform: rotate(-60deg);
-    transform-origin: 0% 100%;
+  width: 133px;
+  height: 16px;
+  position: absolute;
+  background: #000;
+  border-bottom-right-radius: 100% 100%;
+  left: 96px;
+  top: 46px;
+  transform: rotate(-60deg);
+  transform-origin: 0% 100%;
 }
+
 .landscape-branch::after {
   content: '';
-    width: 133px;
-    height: 16px;
-    position: absolute;
-    background: #000;
-    border-bottom-right-radius: 100% 100%;
-    left: 196px;
-    top: 46px;
-    transform: rotate(60deg);
-    transform-origin: 0% 100%;
+  width: 133px;
+  height: 16px;
+  position: absolute;
+  background: #000;
+  border-bottom-right-radius: 100% 100%;
+  left: 196px;
+  top: 46px;
+  transform: rotate(60deg);
+  transform-origin: 0% 100%;
 }
 
 /* headphones */
@@ -4536,26 +4538,26 @@ body {
 
 .headphone {
   position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 290px;
-    height: 278px;
-    border-top: 23px solid #020202;
-    border-right: 12px solid #c7c7c6;
-    border-left: 13px solid #c7c7c6;
-    border-radius: 50%;
-    border-bottom-right-radius: 76px 148px;
-    border-bottom-left-radius: 76px 148px;
-    background: radial-gradient(ellipse at 45% 237%, transparent 54%, #3d3d3fb8 51%, #3d3d3f 72%, transparent 32%);
-    background-repeat: no-repeat;
-    background-size: 178px 30px;
-    background-position:63px -8px;
-    filter: drop-shadow(52px 1px 8px #8b8f8f5c);
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 290px;
+  height: 278px;
+  border-top: 23px solid #020202;
+  border-right: 12px solid #c7c7c6;
+  border-left: 13px solid #c7c7c6;
+  border-radius: 50%;
+  border-bottom-right-radius: 76px 148px;
+  border-bottom-left-radius: 76px 148px;
+  background: radial-gradient(ellipse at 45% 237%, transparent 54%, #3d3d3fb8 51%, #3d3d3f 72%, transparent 32%);
+  background-repeat: no-repeat;
+  background-size: 178px 30px;
+  background-position: 63px -8px;
+  filter: drop-shadow(52px 1px 8px #8b8f8f5c);
 }
 
 
-.headphone::after{
+.headphone::after {
   border-bottom-right-radius: 44px;
   content: '';
   position: absolute;
@@ -4566,9 +4568,10 @@ body {
   left: 272px;
   background: white;
   transform: rotate(15deg);
-  background: linear-gradient(180deg, rgb(199 199 198) 20%, rgba(219,219,221,1) 29%, rgba(240,240,242,1) 55%, rgba(204,204,206,1) 75%, rgba(110,109,113,1) 91%);
+  background: linear-gradient(180deg, rgb(199 199 198) 20%, rgba(219, 219, 221, 1) 29%, rgba(240, 240, 242, 1) 55%, rgba(204, 204, 206, 1) 75%, rgba(110, 109, 113, 1) 91%);
 }
-.headphone::before{
+
+.headphone::before {
   border-bottom-left-radius: 44px;
   content: '';
   position: absolute;
@@ -4579,37 +4582,86 @@ body {
   left: 5px;
   background: white;
   transform: rotate(-15deg);
-  background: linear-gradient(180deg, rgb(199 199 198) 20%, rgba(219,219,221,1) 29%, rgba(240,240,242,1) 55%, rgba(204,204,206,1) 75%, rgba(110,109,113,1) 91%);
+  background: linear-gradient(180deg, rgb(199 199 198) 20%, rgba(219, 219, 221, 1) 29%, rgba(240, 240, 242, 1) 55%, rgba(204, 204, 206, 1) 75%, rgba(110, 109, 113, 1) 91%);
   z-index: 99;
 }
 
 
-.headphone-right{
+.headphone-right {
   position: absolute;
-    top: 58%;
-    left: 79%;
-    width: 83px;
-    height: 123px;
-    background: linear-gradient( 93deg,#4e4e50 5%, black 17% );
-    border-top-right-radius: 69px;
-    border-bottom-right-radius: 69px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    transform: rotate(10deg);
-  }
-.headphone-left{
+  top: 58%;
+  left: 79%;
+  width: 83px;
+  height: 123px;
+  background: linear-gradient(93deg, #4e4e50 5%, black 17%);
+  border-top-right-radius: 69px;
+  border-bottom-right-radius: 69px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transform: rotate(10deg);
+}
+
+.headphone-left {
   position: absolute;
   top: 58%;
   right: 79%;
   width: 83px;
   height: 123px;
-  background: linear-gradient( 272deg, #4d4d4e 8%, black 17% );
+  background: linear-gradient(272deg, #4d4d4e 8%, black 17%);
   border-top-left-radius: 69px;
   border-bottom-left-radius: 69px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   transform: rotate(-10deg);
-  }
+}
 
 
 
+/* pen */
+
+.pen-container {
+  position: relative;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.pen {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 345px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  background: linear-gradient(90deg, rgba(212, 86, 33, 1) 19%, rgba(247, 122, 66, 1) 22%, rgba(247, 122, 66, 1) 24%, rgba(223, 72, 16, 1) 28%, rgba(233, 112, 22, 1) 54%, rgba(254, 201, 147, 1) 57%, rgba(254, 201, 147, 1) 59%, rgba(254, 201, 147, 1) 62%, rgba(244, 173, 89, 1) 65%, rgba(244, 173, 89, 1) 91%)
+}
+
+
+.pen::before {
+  content: '';
+  position: absolute;
+  width: 75px;
+  height: 383px;
+  top: -20px;
+  left: -29px;
+  background-image: linear-gradient(#151514, #000000), linear-gradient(90deg, rgba(171, 172, 167, 1) 10%, rgba(192, 196, 190, 1) 13%, rgba(192, 196, 190, 1) 21%, rgba(159, 163, 157, 1) 25%, rgba(197, 198, 193, 1) 56%, rgba(227, 228, 223, 1) 59%, rgba(227, 228, 223, 1) 63%, rgba(227, 228, 223, 1) 66%, rgba(222, 223, 218, 1) 72%, rgba(222, 223, 218, 1) 91%), linear-gradient(90deg, rgba(60, 25, 12, 1) 10%, rgba(142, 97, 84, 1) 13%, rgba(142, 97, 84, 1) 18%, rgba(49, 34, 30, 1) 21%, rgba(49, 34, 30, 1) 57%, rgba(118, 112, 103, 1) 62%, rgba(118, 112, 103, 1) 68%, rgba(118, 112, 103, 1) 74%, rgba(73, 41, 11, 1) 78%, rgba(73, 41, 11, 1) 91%), linear-gradient(90deg, rgba(30, 22, 20, 1) 10%, rgba(142, 97, 84, 1) 13%, rgba(142, 97, 84, 1) 18%, rgba(30, 22, 20, 1) 21%, rgba(30, 22, 20, 1) 51%, rgba(118, 112, 103, 1) 56%, rgba(118, 112, 103, 1) 64%, rgba(118, 112, 103, 1) 70%, rgba(30, 22, 20, 1) 74%, rgba(30, 22, 20, 1) 91%), linear-gradient(90deg, rgba(171, 172, 167, 1) 10%, rgba(192, 196, 190, 1) 13%, rgba(192, 196, 190, 1) 21%, rgba(159, 163, 157, 1) 25%, rgba(197, 198, 193, 1) 56%, rgba(227, 228, 223, 1) 59%, rgba(227, 228, 223, 1) 63%, rgba(227, 228, 223, 1) 66%, rgba(222, 223, 218, 1) 72%, rgba(222, 223, 218, 1) 91%), linear-gradient(90deg, rgba(171, 172, 167, 1) 10%, rgba(192, 196, 190, 1) 13%, rgba(192, 196, 190, 1) 21%, rgba(159, 163, 157, 1) 25%, rgba(197, 198, 193, 1) 56%, rgba(227, 228, 223, 1) 59%, rgba(227, 228, 223, 1) 63%, rgba(227, 228, 223, 1) 66%, rgba(222, 223, 218, 1) 72%, rgba(222, 223, 218, 1) 91%), linear-gradient(90deg, rgba(224, 66, 21, 1) 10%, rgba(252, 144, 84, 1) 13%, rgba(252, 144, 84, 1) 21%, rgba(224, 66, 21, 1) 25%, rgba(224, 66, 21, 1) 53%, rgba(247, 185, 122, 1) 54%, rgba(247, 185, 122, 1) 63%, rgba(247, 185, 122, 1) 70%, rgba(231, 91, 13, 1) 72%, rgba(231, 91, 13, 1) 91%);
+  background-repeat: no-repeat;
+  background-size: 10px 81px, 18px 20px, 22px 2px, 30px 6px, 30px 56px, 26px 185px, 30px 54px;
+  background-position: 37px 19px, 33px -2px, 31px 18px, 27px 73px, 27px 79px, 29px 134px, 27px 19px;
+  border-top-right-radius: 37%;
+  border-top-left-radius: 48%;
+}
+
+.pen::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 11px;
+  background: linear-gradient(90deg, rgba(167, 173, 153, 1) 36%, rgba(26, 26, 24, 1) 46%, rgba(167, 173, 153, 1) 57%);
+  bottom: -6px;
+  left: 10px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
